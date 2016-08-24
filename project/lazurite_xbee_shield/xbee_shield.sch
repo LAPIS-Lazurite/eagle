@@ -368,26 +368,26 @@ any components</text>
 <pad name="20" x="11" y="9" drill="0.8" diameter="1.27" rot="R180"/>
 <text x="-11.43" y="13.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11.43" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-8.89" y="9.16" size="0.6096" layer="21">1 VCC</text>
-<text x="-8.89" y="7.16" size="0.6096" layer="21">2 TX</text>
-<text x="-8.89" y="5.16" size="0.6096" layer="21">3 RX</text>
-<text x="-8.89" y="3.16" size="0.6096" layer="21">4 DIO12</text>
-<text x="-8.89" y="1.16" size="0.6096" layer="21">5 nRST</text>
-<text x="-8.89" y="-0.84" size="0.6096" layer="21">6 RSSI</text>
-<text x="-8.89" y="-2.84" size="0.6096" layer="21">7 DIO11</text>
-<text x="-8.89" y="-4.84" size="0.6096" layer="21">8 reserved</text>
-<text x="-8.89" y="-6.84" size="0.6096" layer="21">9 SLEEP</text>
-<text x="-8.89" y="-8.84" size="0.6096" layer="21">10 GND</text>
-<text x="8.89" y="-8.16" size="0.6096" layer="21" rot="R180">11 DIO4</text>
-<text x="8.89" y="-6.16" size="0.6096" layer="21" rot="R180">12 DIO7</text>
-<text x="8.89" y="-4.16" size="0.6096" layer="21" rot="R180">13 nSLEEP</text>
-<text x="8.89" y="-2.16" size="0.6096" layer="21" rot="R180">14 NC</text>
-<text x="8.89" y="-0.16" size="0.6096" layer="21" rot="R180">15 DIO5</text>
-<text x="8.89" y="1.84" size="0.6096" layer="21" rot="R180">16 DIO7</text>
-<text x="8.89" y="3.84" size="0.6096" layer="21" rot="R180">17 AIN3</text>
-<text x="8.89" y="5.84" size="0.6096" layer="21" rot="R180">18 AIN2</text>
-<text x="8.89" y="7.84" size="0.6096" layer="21" rot="R180">19 AIN1</text>
-<text x="8.89" y="9.84" size="0.6096" layer="21" rot="R180">20 AIN0</text>
+<text x="-8.89" y="9.16" size="0.6096" layer="51">1 VCC</text>
+<text x="-8.89" y="7.16" size="0.6096" layer="51">2 TX</text>
+<text x="-8.89" y="5.16" size="0.6096" layer="51">3 RX</text>
+<text x="-8.89" y="3.16" size="0.6096" layer="51">4 DIO12</text>
+<text x="-8.89" y="1.16" size="0.6096" layer="51">5 nRST</text>
+<text x="-8.89" y="-0.84" size="0.6096" layer="51">6 RSSI</text>
+<text x="-8.89" y="-2.84" size="0.6096" layer="51">7 DIO11</text>
+<text x="-8.89" y="-4.84" size="0.6096" layer="51">8 reserved</text>
+<text x="-8.89" y="-6.84" size="0.6096" layer="51">9 SLEEP</text>
+<text x="-8.89" y="-8.84" size="0.6096" layer="51">10 GND</text>
+<text x="8.89" y="-8.16" size="0.6096" layer="51" rot="R180">11 DIO4</text>
+<text x="8.89" y="-6.16" size="0.6096" layer="51" rot="R180">12 DIO7</text>
+<text x="8.89" y="-4.16" size="0.6096" layer="51" rot="R180">13 nSLEEP</text>
+<text x="8.89" y="-2.16" size="0.6096" layer="51" rot="R180">14 NC</text>
+<text x="8.89" y="-0.16" size="0.6096" layer="51" rot="R180">15 DIO5</text>
+<text x="8.89" y="1.84" size="0.6096" layer="51" rot="R180">16 DIO7</text>
+<text x="8.89" y="3.84" size="0.6096" layer="51" rot="R180">17 AIN3</text>
+<text x="8.89" y="5.84" size="0.6096" layer="51" rot="R180">18 AIN2</text>
+<text x="8.89" y="7.84" size="0.6096" layer="51" rot="R180">19 AIN1</text>
+<text x="8.89" y="9.84" size="0.6096" layer="51" rot="R180">20 AIN0</text>
 </package>
 </packages>
 <symbols>
@@ -769,6 +769,10 @@ any components</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,7.62,86.36,XB1,VCC,VDD,,,"/>
+<approved hash="113,1,76.2,51.7313,U1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

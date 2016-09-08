@@ -527,26 +527,26 @@ any components</text>
 </net>
 <net name="0" class="0">
 <segment>
-<pinref part="XB1" gate="G$1" pin="DOUT"/>
-<wire x1="7.62" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
-<label x="-5.08" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="B" pin="0"/>
 <wire x1="88.9" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 <label x="99.06" y="55.88" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="1" class="0">
 <segment>
 <pinref part="XB1" gate="G$1" pin="DIN/!CONFIG"/>
 <wire x1="7.62" y1="71.12" x2="-5.08" y2="71.12" width="0.1524" layer="91"/>
 <label x="-5.08" y="71.12" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="1" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="1"/>
 <wire x1="63.5" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <label x="50.8" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="XB1" gate="G$1" pin="DOUT"/>
+<wire x1="7.62" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
+<label x="-5.08" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEST1N" class="0">
@@ -575,11 +575,6 @@ any components</text>
 <wire x1="58.42" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="96.52" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="58.42" y="96.52"/>
-<wire x1="93.98" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="96.52" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<junction x="93.98" y="96.52"/>
-<pinref part="U1" gate="D" pin="VCC3V_2"/>
-<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
 <wire x1="0" y1="99.06" x2="0" y2="96.52" width="0.1524" layer="91"/>
 <junction x="0" y="96.52"/>

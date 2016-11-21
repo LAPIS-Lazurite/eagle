@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27,9 +27,9 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -86,8 +86,8 @@
 <wire x1="20.701" y1="0" x2="20.701" y2="15.875" width="0.127" layer="21" style="shortdash"/>
 <wire x1="20.701" y1="15.875" x2="0" y2="15.875" width="0.127" layer="21" style="shortdash"/>
 <wire x1="0" y1="15.875" x2="0" y2="0" width="0.127" layer="21" style="shortdash"/>
-<pad name="1" x="5.588" y="7.9375" drill="1.8542" rot="R180"/>
-<pad name="2" x="15.113" y="7.9375" drill="1.8542" rot="R180"/>
+<pad name="1" x="5.588" y="7.9375" drill="1.8542" diameter="3.81" rot="R180"/>
+<pad name="2" x="15.113" y="7.9375" drill="1.8542" diameter="3.81" rot="R180"/>
 <text x="0" y="16.51" size="1.27" layer="25">&gt;NAME</text>
 <text x="0.57" y="-1.8382" size="1.27" layer="27">&gt;VALUE</text>
 <text x="2.54" y="7.62" size="1.27" layer="21">1</text>
@@ -317,22 +317,22 @@
 <wire x1="10.55" y1="-3.5" x2="10.55" y2="-5.15" width="0.127" layer="21"/>
 </package>
 <package name="XB-1-X">
-<smd name="1_1" x="-5.08" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="2_2" x="-3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="3_2" x="-2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="1_2" x="-5.08" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="2_1" x="-3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="3_1" x="-2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="4_1" x="-1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="5_1" x="0" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="6_1" x="1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="7_1" x="2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="8_1" x="3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90"/>
-<smd name="4_2" x="-1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="5_2" x="0" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="6_2" x="1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="7_2" x="2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
-<smd name="8_2" x="3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90"/>
+<smd name="1_1" x="-5.08" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="2_2" x="-3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="3_2" x="-2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="1_2" x="-5.08" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="2_1" x="-3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="3_1" x="-2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="4_1" x="-1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="5_1" x="0" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="6_1" x="1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="7_1" x="2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="8_1" x="3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="4_2" x="-1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="5_2" x="0" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="6_2" x="1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="7_2" x="2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="8_2" x="3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
 <hole x="-5.08" y="0" drill="0.85"/>
 <hole x="-3.81" y="0" drill="0.85"/>
 <hole x="-2.54" y="0" drill="0.85"/>
@@ -341,6 +341,38 @@
 <hole x="1.27" y="0" drill="0.85"/>
 <hole x="2.54" y="0" drill="0.85"/>
 <hole x="3.81" y="0" drill="0.85"/>
+</package>
+<package name="UP2-AH-TH">
+<pad name="VDD" x="3.5" y="5" drill="1"/>
+<pad name="D-" x="1" y="5" drill="1"/>
+<pad name="G" x="-3.5" y="5" drill="1"/>
+<pad name="D+" x="-1" y="5" drill="1"/>
+<wire x1="-5.85" y1="5" x2="5.85" y2="5" width="0.127" layer="51"/>
+<wire x1="5.85" y1="5" x2="5.85" y2="0" width="0.127" layer="51"/>
+<wire x1="5.85" y1="0" x2="5.85" y2="-15.26" width="0.127" layer="51"/>
+<wire x1="5.85" y1="-15.26" x2="-5.85" y2="-15.26" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="-15.26" x2="-5.85" y2="0" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="0" x2="-5.85" y2="5" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="0" x2="5.85" y2="0" width="0.127" layer="51"/>
+<text x="0" y="-7.62" size="1.27" layer="51" align="center">thickness
+of PCB
+should
+be 1mm</text>
+<wire x1="-5.85" y1="3.65" x2="-5.85" y2="2.15" width="1" layer="46"/>
+<smd name="GND$2" x="-5.85" y="2.9" dx="1.75" dy="3" layer="16" roundness="100" cream="no"/>
+<smd name="GND$1" x="-5.85" y="2.9" dx="1.75" dy="3" layer="1" roundness="100" cream="no"/>
+<wire x1="5.85" y1="3.65" x2="5.85" y2="2.15" width="1" layer="46"/>
+<smd name="GND$3" x="5.85" y="2.9" dx="1.75" dy="3" layer="16" roundness="100" cream="no"/>
+<smd name="GND$4" x="5.85" y="2.9" dx="1.75" dy="3" layer="1" roundness="100" cream="no"/>
+<text x="-6" y="6.05" size="1.27" layer="25">&gt;NAME</text>
+<hole x="-2.3" y="2.9" drill="1.2"/>
+<hole x="2.3" y="2.9" drill="1.2"/>
+<hole x="-5.85" y="2.9" drill="1"/>
+<hole x="5.85" y="2.9" drill="1"/>
+<circle x="-2.3" y="2.9" radius="1.4" width="0" layer="41"/>
+<circle x="-2.3" y="2.9" radius="1.4" width="0" layer="42"/>
+<circle x="2.3" y="2.9" radius="1.4" width="0" layer="42"/>
+<circle x="2.3" y="2.9" radius="1.4" width="0" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -547,6 +579,23 @@
 <wire x1="-2.54" y1="-48.26" x2="10.16" y2="-48.26" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-48.26" x2="10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="UP2-AH-TH">
+<wire x1="-17.78" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="7.62" width="0.254" layer="94"/>
+<pin name="G$1" x="5.08" y="-10.16" length="middle" direction="pwr" rot="R90"/>
+<pin name="G$3" x="5.08" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<pin name="V+" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="D-" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="D+" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="G$2" x="7.62" y="-10.16" length="middle" direction="pwr" rot="R90"/>
+<pin name="G$4" x="7.62" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<pin name="G$7" x="22.86" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">USB
+type
+A</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -827,7 +876,35 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB-TYPE-A">
+<gates>
+<gate name="G$1" symbol="UP2-AH-TH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UP2-AH-TH">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="G$1" pad="GND$1"/>
+<connect gate="G$1" pin="G$2" pad="GND$2"/>
+<connect gate="G$1" pin="G$3" pad="GND$3"/>
+<connect gate="G$1" pin="G$4" pad="GND$4"/>
+<connect gate="G$1" pin="G$7" pad="G"/>
+<connect gate="G$1" pin="V+" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

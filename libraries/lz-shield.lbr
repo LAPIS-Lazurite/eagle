@@ -486,26 +486,26 @@ be 1mm</text>
 <text x="1.905" y="-6.985" size="1.27" layer="51" font="vector" rot="R90">VCC</text>
 </package>
 <package name="DF40C-20DS-0.4V">
-<smd name="P$1" x="1.8" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$2" x="1.8" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$3" x="1.4" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$4" x="1.4" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$5" x="1" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$6" x="1" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$7" x="0.6" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$8" x="0.6" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$9" x="0.2" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$10" x="0.2" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$11" x="-0.2" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$12" x="-0.2" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$13" x="-0.6" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$14" x="-0.6" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$15" x="-1" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$16" x="-1" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$17" x="-1.4" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$18" x="-1.4" y="1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$19" x="-1.8" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
-<smd name="P$20" x="-1.8" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="1" x="1.8" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="2" x="1.8" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="3" x="1.4" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="4" x="1.4" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="5" x="1" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="6" x="1" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="7" x="0.6" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="8" x="0.6" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="9" x="0.2" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="10" x="0.2" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="11" x="-0.2" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="12" x="-0.2" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="13" x="-0.6" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="14" x="-0.6" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="15" x="-1" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="16" x="-1" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="17" x="-1.4" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="18" x="-1.4" y="1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="19" x="-1.8" y="-1.54" dx="0.2" dy="0.7" layer="1"/>
+<smd name="20" x="-1.8" y="1.54" dx="0.2" dy="0.7" layer="1"/>
 <wire x1="-3.3" y1="1.44" x2="3.3" y2="1.44" width="0.127" layer="51"/>
 <wire x1="3.3" y1="1.44" x2="3.3" y2="-1.44" width="0.127" layer="51"/>
 <wire x1="3.3" y1="-1.44" x2="-3.3" y2="-1.44" width="0.127" layer="51"/>
@@ -515,23 +515,23 @@ be 1mm</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="KXG03">
-<smd name="P$1" x="1.225" y="1" dx="0.35" dy="0.25" layer="1"/>
-<smd name="P$2" x="1.225" y="0.5" dx="0.35" dy="0.25" layer="1"/>
-<smd name="P$3" x="1.225" y="0" dx="0.35" dy="0.25" layer="1"/>
-<smd name="P$4" x="1.225" y="-0.5" dx="0.35" dy="0.25" layer="1"/>
-<smd name="P$5" x="1.225" y="-1" dx="0.35" dy="0.25" layer="1"/>
-<smd name="P$6" x="0.5" y="-1.225" dx="0.35" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$7" x="0" y="-1.225" dx="0.35" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$8" x="-0.5" y="-1.225" dx="0.35" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$9" x="-1.225" y="-1" dx="0.35" dy="0.25" layer="1" rot="R180"/>
-<smd name="P$10" x="-1.225" y="-0.5" dx="0.35" dy="0.25" layer="1" rot="R180"/>
-<smd name="P$11" x="-1.225" y="0" dx="0.35" dy="0.25" layer="1" rot="R180"/>
-<smd name="P$12" x="-1.225" y="0.5" dx="0.35" dy="0.25" layer="1" rot="R180"/>
-<smd name="P$13" x="-1.225" y="1" dx="0.35" dy="0.25" layer="1" rot="R180"/>
-<smd name="P$14" x="-0.5" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$15" x="0" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$16" x="0.5" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
-<circle x="1.905" y="1.27" radius="0.1" width="0.2" layer="21"/>
+<smd name="13" x="1.225" y="1" dx="0.35" dy="0.25" layer="1"/>
+<smd name="12" x="1.225" y="0.5" dx="0.35" dy="0.25" layer="1"/>
+<smd name="11" x="1.225" y="0" dx="0.35" dy="0.25" layer="1"/>
+<smd name="10" x="1.225" y="-0.5" dx="0.35" dy="0.25" layer="1"/>
+<smd name="9" x="1.225" y="-1" dx="0.35" dy="0.25" layer="1"/>
+<smd name="8" x="0.5" y="-1.225" dx="0.35" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="0" y="-1.225" dx="0.35" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="-0.5" y="-1.225" dx="0.35" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="-1.225" y="-1" dx="0.35" dy="0.25" layer="1" rot="R180"/>
+<smd name="4" x="-1.225" y="-0.5" dx="0.35" dy="0.25" layer="1" rot="R180"/>
+<smd name="3" x="-1.225" y="0" dx="0.35" dy="0.25" layer="1" rot="R180"/>
+<smd name="2" x="-1.225" y="0.5" dx="0.35" dy="0.25" layer="1" rot="R180"/>
+<smd name="1" x="-1.225" y="1" dx="0.35" dy="0.25" layer="1" rot="R180"/>
+<smd name="16" x="-0.5" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
+<smd name="15" x="0" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
+<smd name="14" x="0.5" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
+<circle x="-1.905" y="1.27" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
@@ -839,49 +839,51 @@ A</text>
 <wire x1="-17.778" y1="7.536" x2="15.238" y2="7.536" width="0.254" layer="94"/>
 <wire x1="15.238" y1="7.536" x2="15.238" y2="-7.536" width="0.254" layer="94"/>
 <wire x1="-17.778" y1="-7.536" x2="-17.778" y2="7.536" width="0.254" layer="94"/>
-<pin name="P$1" x="10.16" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$2" x="10.16" y="12.7" length="middle" rot="R270"/>
-<pin name="P$3" x="7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$4" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="P$5" x="5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$6" x="5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="1" x="10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="2" x="10.16" y="12.7" length="middle" rot="R270"/>
+<pin name="3" x="7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="4" x="7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="5" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="6" x="5.08" y="12.7" length="middle" rot="R270"/>
 <wire x1="15.238" y1="-7.536" x2="-17.778" y2="-7.536" width="0.254" layer="94"/>
-<pin name="P$7" x="2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$8" x="2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="P$9" x="0" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$10" x="0" y="12.7" length="middle" rot="R270"/>
-<pin name="P$11" x="-2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$12" x="-2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="P$13" x="-5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$14" x="-5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="P$15" x="-7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$16" x="-7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="P$17" x="-10.16" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$18" x="-10.16" y="12.7" length="middle" rot="R270"/>
-<pin name="P$19" x="-12.7" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$20" x="-12.7" y="12.7" length="middle" rot="R270"/>
+<pin name="7" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="8" x="2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="9" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="10" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="11" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="12" x="-2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="13" x="-5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="14" x="-5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="15" x="-7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="16" x="-7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="17" x="-10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="18" x="-10.16" y="12.7" length="middle" rot="R270"/>
+<pin name="19" x="-12.7" y="-12.7" length="middle" rot="R90"/>
+<pin name="20" x="-12.7" y="12.7" length="middle" rot="R270"/>
+<text x="12.7" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="KXG03">
-<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<pin name="P$1" x="20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="P$2" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="P$3" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="P$4" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$5" x="20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="P$6" x="5.08" y="-20.32" length="middle" rot="R90"/>
-<pin name="P$7" x="0" y="-20.32" length="middle" rot="R90"/>
-<pin name="P$8" x="-5.08" y="-20.32" length="middle" rot="R90"/>
-<pin name="P$9" x="-20.32" y="-10.16" length="middle"/>
-<pin name="P$10" x="-20.32" y="-5.08" length="middle"/>
-<pin name="P$11" x="-20.32" y="0" length="middle"/>
-<pin name="P$12" x="-20.32" y="5.08" length="middle"/>
-<pin name="P$13" x="-20.32" y="10.16" length="middle"/>
-<pin name="P$14" x="-5.08" y="20.32" length="middle" rot="R270"/>
-<pin name="P$15" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="P$16" x="5.08" y="20.32" length="middle" rot="R270"/>
+<wire x1="17.78" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="15.24" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-15.24" x2="17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-15.24" x2="17.78" y2="15.24" width="0.254" layer="94"/>
+<pin name="IO_VDD" x="-22.86" y="10.16" length="middle" direction="pwr"/>
+<pin name="AUX_CL" x="-22.86" y="5.08" length="middle" direction="in"/>
+<pin name="AUX_DA" x="-22.86" y="0" length="middle"/>
+<pin name="SCLK_SCL" x="-22.86" y="-5.08" length="middle" direction="in"/>
+<pin name="5" x="-22.86" y="-10.16" length="middle" direction="nc"/>
+<pin name="MOSI_SDA" x="-2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="MISO_ADDR" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="NCS" x="7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="INT2" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="SYNC" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="INT1" x="22.86" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="22.86" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="TRIG" x="22.86" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VDD" x="7.62" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="CPOUT" x="2.54" y="20.32" length="middle" rot="R270"/>
+<pin name="16" x="-2.54" y="20.32" length="middle" direction="nc" rot="R270"/>
+<text x="15.24" y="17.78" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1282,26 +1284,26 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 <devices>
 <device name="" package="DF40C-20DS-0.4V">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$11" pad="P$11"/>
-<connect gate="G$1" pin="P$12" pad="P$12"/>
-<connect gate="G$1" pin="P$13" pad="P$13"/>
-<connect gate="G$1" pin="P$14" pad="P$14"/>
-<connect gate="G$1" pin="P$15" pad="P$15"/>
-<connect gate="G$1" pin="P$16" pad="P$16"/>
-<connect gate="G$1" pin="P$17" pad="P$17"/>
-<connect gate="G$1" pin="P$18" pad="P$18"/>
-<connect gate="G$1" pin="P$19" pad="P$19"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$20" pad="P$20"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1316,22 +1318,22 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 <devices>
 <device name="" package="KXG03">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$11" pad="P$11"/>
-<connect gate="G$1" pin="P$12" pad="P$12"/>
-<connect gate="G$1" pin="P$13" pad="P$13"/>
-<connect gate="G$1" pin="P$14" pad="P$14"/>
-<connect gate="G$1" pin="P$15" pad="P$15"/>
-<connect gate="G$1" pin="P$16" pad="P$16"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="AUX_CL" pad="2"/>
+<connect gate="G$1" pin="AUX_DA" pad="3"/>
+<connect gate="G$1" pin="CPOUT" pad="15"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="INT1" pad="11"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="IO_VDD" pad="1"/>
+<connect gate="G$1" pin="MISO_ADDR" pad="7"/>
+<connect gate="G$1" pin="MOSI_SDA" pad="6"/>
+<connect gate="G$1" pin="NCS" pad="8"/>
+<connect gate="G$1" pin="SCLK_SCL" pad="4"/>
+<connect gate="G$1" pin="SYNC" pad="10"/>
+<connect gate="G$1" pin="TRIG" pad="13"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>

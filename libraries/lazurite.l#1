@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2848,45 +2848,6 @@ any components</text>
 </gates>
 <devices>
 <device name="LAZURITE920J" package="LAZURITE920J">
-<connects>
-<connect gate="A" pin="PAD_0" pad="PAD_0"/>
-<connect gate="A" pin="PAD_1" pad="PAD_1"/>
-<connect gate="B" pin="0" pad="0"/>
-<connect gate="B" pin="1" pad="1"/>
-<connect gate="B" pin="GND_0" pad="GND_0"/>
-<connect gate="B" pin="GND_1" pad="GND_1"/>
-<connect gate="B" pin="TEST0" pad="TEST0"/>
-<connect gate="B" pin="TEST1N" pad="TEST1N"/>
-<connect gate="B" pin="VCC3V_0" pad="VCC3V_0"/>
-<connect gate="B" pin="VCC3V_1" pad="VCC3V_1"/>
-<connect gate="B" pin="VCC5V_0" pad="VCC5V_0"/>
-<connect gate="B" pin="VCC5V_1" pad="VCC5V_1"/>
-<connect gate="C" pin="10" pad="10"/>
-<connect gate="C" pin="11" pad="11"/>
-<connect gate="C" pin="12" pad="12"/>
-<connect gate="C" pin="13" pad="13"/>
-<connect gate="C" pin="4" pad="4"/>
-<connect gate="C" pin="5" pad="5"/>
-<connect gate="C" pin="6" pad="6"/>
-<connect gate="C" pin="7" pad="7"/>
-<connect gate="C" pin="8" pad="8"/>
-<connect gate="C" pin="9" pad="9"/>
-<connect gate="D" pin="14" pad="14"/>
-<connect gate="D" pin="15" pad="15"/>
-<connect gate="D" pin="16" pad="16"/>
-<connect gate="D" pin="17" pad="17"/>
-<connect gate="D" pin="18" pad="18"/>
-<connect gate="D" pin="19" pad="19"/>
-<connect gate="D" pin="2" pad="2"/>
-<connect gate="D" pin="3" pad="3"/>
-<connect gate="D" pin="GND_2" pad="GND_2"/>
-<connect gate="D" pin="VCC3V_2" pad="VCC3V_2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="LAZURITE920J2">
 <connects>
 <connect gate="A" pin="PAD_0" pad="PAD_0"/>
 <connect gate="A" pin="PAD_1" pad="PAD_1"/>

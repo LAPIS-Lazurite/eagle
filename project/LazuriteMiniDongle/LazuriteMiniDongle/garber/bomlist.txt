@@ -1,0 +1,29 @@
+Partlist
+
+Exported from LazuriteMiniDongle3.brd at 2016/11/26 9:46
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+
+Assembly variant: 
+
+Part     Value          Package              Library   Position (mm)         Orientation
+
+C1       0.1u           C0402                rcl       (17.32 7)             R180
+C2       0.1u           C0402                rcl       (26.24 13.15)         R0
+C3       0.1u           C0402                rcl       (20.09 5.1)           R180
+C4       4.7u           C1608                resistor  (8.76 14.75)          R0
+C5       47p            C0402                rcl       (8.6 12.17)           R90
+C6       47p            C0402                rcl       (8.65 8.41)           R270
+C7       0.1u           C0402                rcl       (6.6 17.83)           R90
+C8       0.1u           C0402                rcl       (29 18.9)             R0
+IC1      FT232RQ        QFN32                ftdichip  (22.79 9.25)          R270
+L1       MF-MSMF050-2   L1812                rcl       (9.48 19.11)          R90
+R1       1k             R0402                rcl       (17.49 9.77)          R180
+R2       1k             R0402                rcl       (27.95 9.98)          R0
+R3       10k            R0402                rcl       (23.04 18.96)         R0
+R4       510            R0402                rcl       (25.9 5.49)           R0
+R5       510            R0402                rcl       (25.93 4.15)          R0
+U$1      TI-TS5A23159   UQFN10               lz-shield (25.98 18.13)         R270
+U$2      USB-TYPE-A     UP2-AH-TH            lz-shield (0 12)                MR90
+U1                      LAZURITE920J(NOSILK) lazurite  (14.25 17)            MR180

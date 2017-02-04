@@ -2235,11 +2235,11 @@ any components</text>
 <pad name="12" x="31.496" y="50.8" drill="0.8" rot="R90"/>
 <pad name="13" x="28.956" y="50.8" drill="0.8" rot="R90"/>
 <pad name="GND$3" x="26.416" y="50.8" drill="0.8" rot="R90"/>
-<pad name="AREF" x="23.876" y="50.8" drill="0.8" rot="R90"/>
+<pad name="AREF" x="23.876" y="50.8" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
 <pad name="IOREF$1" x="30.48" y="2.54" drill="0.8" rot="R90"/>
 <pad name="NC$1" x="27.94" y="2.54" drill="0.8" rot="R90"/>
-<pad name="SDA" x="21.336" y="50.8" drill="0.8" rot="R90"/>
-<pad name="SCL" x="18.796" y="50.8" drill="0.8" rot="R90"/>
+<pad name="SDA" x="21.336" y="50.8" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="SCL" x="18.796" y="50.8" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
 <text x="62.865" y="46.99" size="0.8128" layer="21" font="vector" rot="R270">RX</text>
 <text x="60.325" y="46.99" size="0.8128" layer="21" font="vector" rot="R270">TX</text>
 <text x="57.785" y="46.99" size="1.27" layer="21" font="vector" rot="R270">2</text>
@@ -2848,6 +2848,45 @@ any components</text>
 </gates>
 <devices>
 <device name="LAZURITE920J" package="LAZURITE920J">
+<connects>
+<connect gate="A" pin="PAD_0" pad="PAD_0"/>
+<connect gate="A" pin="PAD_1" pad="PAD_1"/>
+<connect gate="B" pin="0" pad="0"/>
+<connect gate="B" pin="1" pad="1"/>
+<connect gate="B" pin="GND_0" pad="GND_0"/>
+<connect gate="B" pin="GND_1" pad="GND_1"/>
+<connect gate="B" pin="TEST0" pad="TEST0"/>
+<connect gate="B" pin="TEST1N" pad="TEST1N"/>
+<connect gate="B" pin="VCC3V_0" pad="VCC3V_0"/>
+<connect gate="B" pin="VCC3V_1" pad="VCC3V_1"/>
+<connect gate="B" pin="VCC5V_0" pad="VCC5V_0"/>
+<connect gate="B" pin="VCC5V_1" pad="VCC5V_1"/>
+<connect gate="C" pin="10" pad="10"/>
+<connect gate="C" pin="11" pad="11"/>
+<connect gate="C" pin="12" pad="12"/>
+<connect gate="C" pin="13" pad="13"/>
+<connect gate="C" pin="4" pad="4"/>
+<connect gate="C" pin="5" pad="5"/>
+<connect gate="C" pin="6" pad="6"/>
+<connect gate="C" pin="7" pad="7"/>
+<connect gate="C" pin="8" pad="8"/>
+<connect gate="C" pin="9" pad="9"/>
+<connect gate="D" pin="14" pad="14"/>
+<connect gate="D" pin="15" pad="15"/>
+<connect gate="D" pin="16" pad="16"/>
+<connect gate="D" pin="17" pad="17"/>
+<connect gate="D" pin="18" pad="18"/>
+<connect gate="D" pin="19" pad="19"/>
+<connect gate="D" pin="2" pad="2"/>
+<connect gate="D" pin="3" pad="3"/>
+<connect gate="D" pin="GND_2" pad="GND_2"/>
+<connect gate="D" pin="VCC3V_2" pad="VCC3V_2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="LAZURITE920J2">
 <connects>
 <connect gate="A" pin="PAD_0" pad="PAD_0"/>
 <connect gate="A" pin="PAD_1" pad="PAD_1"/>

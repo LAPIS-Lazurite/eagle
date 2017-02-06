@@ -1503,6 +1503,7 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 </devices>
 </deviceset>
 <deviceset name="DF40C-20DS-0.4V">
+<description>Digi-Key品番 H11619CT-ND</description>
 <gates>
 <gate name="G$1" symbol="DF40C-20DS-0.4V" x="-2.54" y="7.62"/>
 </gates>
@@ -1537,6 +1538,7 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 </devices>
 </deviceset>
 <deviceset name="KXG03">
+<description>Digi-Key品番 1191-1043-1-ND</description>
 <gates>
 <gate name="G$1" symbol="KXG03" x="-7.62" y="17.78"/>
 </gates>
@@ -1567,6 +1569,7 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 </devices>
 </deviceset>
 <deviceset name="BM1383AGLV">
+<description>Digi-Key品番 BM1383AGLV-ZE2CT-ND</description>
 <gates>
 <gate name="G$1" symbol="BM1383AGLV" x="-7.62" y="5.08"/>
 </gates>
@@ -1593,6 +1596,7 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 </devices>
 </deviceset>
 <deviceset name="BK-913">
+<description>Digi-Key品番 BK-913-ND</description>
 <gates>
 <gate name="G$1" symbol="BK-913" x="-5.08" y="27.94"/>
 </gates>

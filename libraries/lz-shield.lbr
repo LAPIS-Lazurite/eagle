@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -512,7 +512,19 @@ be 1mm</text>
 <wire x1="-3.3" y1="-1.44" x2="-3.3" y2="1.44" width="0.127" layer="51"/>
 <circle x="2.8575" y="-2.2225" radius="0.127" width="0.508" layer="21"/>
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.25" y1="-2.8" x2="8.05" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="8.05" y1="-2.8" x2="8.05" y2="0" width="0.127" layer="51"/>
+<wire x1="8.05" y1="0" x2="12.25" y2="0" width="0.127" layer="51"/>
+<wire x1="8.05" y1="7.5" x2="12.25" y2="7.5" width="0.127" layer="51"/>
+<wire x1="12.25" y1="0" x2="12.25" y2="7.5" width="0.127" layer="51"/>
+<wire x1="8.05" y1="7.5" x2="8.05" y2="12.5" width="0.127" layer="51"/>
+<wire x1="8.05" y1="12.5" x2="-6.25" y2="12.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="12.5" x2="-6.25" y2="7.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="7.5" x2="-10.95" y2="7.5" width="0.127" layer="51"/>
+<wire x1="-10.95" y1="7.5" x2="-10.95" y2="0" width="0.127" layer="51"/>
+<wire x1="-10.95" y1="0" x2="-6.25" y2="0" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="0" x2="-6.25" y2="-2.8" width="0.127" layer="51"/>
 </package>
 <package name="KXG03">
 <smd name="13" x="1.225" y="1" dx="0.35" dy="0.25" layer="1"/>

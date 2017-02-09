@@ -9599,8 +9599,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="2.2u"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0402" value="0.01u"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0402" value="47u"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="22u"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C1210" value="47u"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="22u"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="8p"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0402" value="8p"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -47,7 +47,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -747,6 +747,44 @@ be 1mm</text>
 <text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="LVLSFT">
+<pad name="A3" x="-5.08" y="-1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="A4" x="-5.08" y="-3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="A2" x="-5.08" y="1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="A1" x="-5.08" y="3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="OE" x="-5.08" y="-6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="LVDD" x="-5.08" y="6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="HVDD" x="5.08" y="6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="B1" x="5.08" y="3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="B2" x="5.08" y="1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="B3" x="5.08" y="-1.27" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="B4" x="5.08" y="-3.81" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="GND" x="5.08" y="-6.35" drill="0.8" diameter="1.6764" shape="octagon"/>
+<text x="-5.08" y="8.89" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="-7.62" x2="6.35" y2="-7.62" width="0.127" layer="51"/>
+<wire x1="6.35" y1="-7.62" x2="6.35" y2="7.62" width="0.127" layer="51"/>
+<wire x1="6.35" y1="7.62" x2="-6.35" y2="7.62" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-7.62" width="0.127" layer="51"/>
+<text x="-3.175" y="-6.985" size="1.27" layer="21" font="vector">OE</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="21" font="vector">A4</text>
+<text x="-3.175" y="-1.905" size="1.27" layer="21" font="vector">A3</text>
+<text x="-3.175" y="0.635" size="1.27" layer="21" font="vector">A2</text>
+<text x="-3.175" y="3.175" size="1.27" layer="21" font="vector">A1</text>
+<text x="-3.175" y="5.715" size="1.27" layer="21" font="vector">LV</text>
+<text x="1.27" y="5.715" size="1.27" layer="21" font="vector">HV</text>
+<text x="1.27" y="3.175" size="1.27" layer="21" font="vector">B1</text>
+<text x="1.27" y="0.635" size="1.27" layer="21" font="vector">B2</text>
+<text x="1.27" y="-1.905" size="1.27" layer="21" font="vector">B3</text>
+<text x="1.27" y="-4.445" size="1.27" layer="21" font="vector">B4</text>
+<text x="1.27" y="-6.985" size="1.27" layer="21" font="vector">G</text>
+</package>
+<package name="PICOLED">
+<smd name="A" x="0" y="0.45" dx="0.6" dy="0.5" layer="1"/>
+<smd name="C" x="0" y="-0.45" dx="0.6" dy="0.5" layer="1"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TACT-SWITCH">
@@ -1121,6 +1159,34 @@ A</text>
 <pin name="VDD2" x="15.24" y="0" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND" x="0" y="10.16" length="middle" direction="pwr" rot="R270"/>
 <text x="-2.54" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LVSHFT">
+<pin name="LVDD" x="-15.24" y="7.62" length="middle"/>
+<pin name="A1" x="-15.24" y="5.08" length="middle"/>
+<pin name="A2" x="-15.24" y="2.54" length="middle"/>
+<pin name="A3" x="-15.24" y="0" length="middle"/>
+<pin name="A4" x="-15.24" y="-2.54" length="middle"/>
+<pin name="OE" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="B4" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="B3" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="B2" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="B1" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="HVDD" x="15.24" y="7.62" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="PICOLED">
+<pin name="A" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="C" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1618,6 +1684,65 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VDD1" pad="VDD1"/>
 <connect gate="G$1" pin="VDD2" pad="VDD2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LVSHFT">
+<description>https://www.switch-science.com/catalog/1779/</description>
+<gates>
+<gate name="G$1" symbol="LVSHFT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LVLSFT">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="HVDD" pad="HVDD"/>
+<connect gate="G$1" pin="LVDD" pad="LVDD"/>
+<connect gate="G$1" pin="OE" pad="OE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PICOLED">
+<description>http://www.rohm.co.jp/web/japan/news-detail?news-title=2014-07-03_ad&amp;defaultGroupId=false&lt;BR&gt;
+R	SML-P12VT&lt;BR&gt;
+R	SML-P12UT&lt;BR&gt;
+O	SML-P12U2T&lt;BR&gt;
+O	SML-P12DT&lt;BR&gt;
+Y	SML-P12Y3T&lt;BR&gt;
+Y	SML-P12YT&lt;BR&gt;
+Y	SML-P12WT&lt;BR&gt;
+Y	SML-P12Y2T&lt;BR&gt;
+Y	SML-P12M2T&lt;BR&gt;
+G	SML-P12MT&lt;BR&gt;
+G	SML-P13FT&lt;BR&gt;
+G	SML-P13PT&lt;BR&gt;
+B	SMLP13EC8T&lt;BR&gt;
+B	SMLP13BC8T&lt;BR&gt;
+W	SCMP13WBC8W&lt;BR&gt;</description>
+<gates>
+<gate name="G$1" symbol="PICOLED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PICOLED">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>

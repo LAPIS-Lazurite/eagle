@@ -1,0 +1,70 @@
+Partlist
+
+Exported from lazurite_rev3_2.brd at 2017/02/13 22:45
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value               Package                     Library    Position (mil)        Orientation
+
+C1       0.1u                C0402                       rcl        (2150 750)            R0
+C2       1u                  C0402                       rcl        (1425 425)            R270
+C3       33000p              C0402                       rcl        (1500 1075)           R90
+C4       2.2u                C0402                       rcl        (1600 1075)           R90
+C5       2.2u                C0402                       rcl        (1550 1075)           R90
+C6       10u                 C0402                       rcl        (1350 1475)           R270
+C7       0.1u                C0402                       rcl        (1300 1475)           R270
+C8       2.2u                C0402                       rcl        (1462.5 1237.5)       R0
+C10      0.1u                C0402                       rcl        (2300 900)            R90
+C11      0.1u                C0402                       rcl        (2425 800)            R90
+C12      0.1u                C0402                       rcl        (2225 600)            R180
+C13      0.1u                C0402                       rcl        (2350 600)            R0
+C14      0.01u               C0402                       rcl        (1175 1250)           R0
+C15      47u                 C1210                       rcl        (825 1212.5)          R180
+C16      22u                 C1206                       rcl        (900 1650)            R0
+C17      8p                  C0402                       rcl        (1350 1075)           R90
+C18      8p                  C0402                       rcl        (1450 1075)           R90
+C19      0.1u                C0402                       rcl        (900 1000)            R0
+C20      0.1u                C0402                       rcl        (575 650)             R270
+C21      47p                 C0402                       rcl        (375 1150)            R90
+C22      47p                 C0402                       rcl        (375 1012.5)          R270
+C23      4.7u                C0402                       rcl        (575 1700)            R270
+C24      0.1u                C0402                       rcl        (762.5 487.5)         R90
+C25      0.1u                C0402                       rcl        (500 1700)            R270
+C26      0.1u                C0402                       rcl        (100 812.5)           R270
+IC1      FT232RQ             QFN32                       ftdichip   (650 875)             R270
+L1       MF-MSMF050-2        L1812                       rcl        (225 750)             R270
+R1       100K                R0402                       rcl        (1262.5 1337.5)       R0
+R3       10K                 R0402                       rcl        (1875 500)            R270
+R4       10K                 R0402                       rcl        (1925 500)            R270
+R5       10K                 R0402                       rcl        (2525 800)            R90
+R6       10K                 R0402                       rcl        (2575 800)            R90
+R7       1K                  R0402                       rcl        (900 900)             R180
+R8       1K                  R0402                       rcl        (837.5 1050)          R180
+R9       NC                  R0402                       rcl        (525 1100)            R270
+R10      10K                 R0402                       rcl        (475 1100)            R90
+R11      510                 R0402                       rcl        (675 662.5)           R90
+R12      510                 R0402                       rcl        (725 662.5)           R90
+R13      1K                  R0402                       rcl        (162.5 1450)          R180
+R14      1K                  R0402                       rcl        (2325 1162.5)         R180
+R15      1K                  R0402                       rcl        (2325 1087.5)         R180
+U$1      ML620Q504           ML620Q504                   lazurite   (1600 675)            R270
+U$2      TI-TS5A23159        UQFN10                      lz-shield  (800 350)             R0
+U$3      NX3215SA            NX3215SA-32,768K-SFD-MUA-14 lazurite   (1400 950)            R180
+U$4      MHS221              MHS221                      lazurite   (1300 1700)           R180
+U$5      BA50BC0FP           TO252-3                     lazurite   (662.5 1437.5)        R90
+U$6      BHXXPB1WFV          HVSOF5                      lazurite   (1325 1250)           R90
+U$7      SKHUALE010          SKHUALE010                  lazurite   (250 200)             R180
+U$8      FXMA2102            MICROPACK                   lazurite   (2325 750)            R180
+U$9      FXMA108             FXMA108                     lazurite   (2275 450)            R270
+U$10     LAZURITE_BASIC      LAZURITE_BASIC              lazurite   (0 0)                 R0
+U$11     ZX62R-B-5P          ZX62R-B-5P                  con-hirose (50 1150)             R0
+U$12     XB-1-X              XB-1-X                      lz-shield  (250 400)             R180
+U$13     PJ-102AH            PJ-102H                     lazurite   (125 1887.5)          R90
+U$14     RB160MM             RB160MM-30                  lazurite   (412.5 1525)          R0
+U$15     RB160MM             RB160MM-30                  lazurite   (662.5 1687.5)        R0
+U$16     SML-E12U8WT86       SML-E1X                     lazurite   (300 1450)            R270
+U$17     SML-E12Y8W          SML-E1X                     lazurite   (2212.5 1162.5)       R90
+U$18     SML-E13BC8T         SML-E1X                     lazurite   (2212.5 1087.5)       R90
+U$20     DF40C-20DP-0.4V(51) BP3596A                     lazurite   (2825 750)            R270

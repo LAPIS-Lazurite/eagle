@@ -1,6 +1,6 @@
 Partlist
 
-Exported from lazurite_rev3_2.brd at 2017/02/13 22:45
+Exported from lazurite_rev3_2.brd at 2017/02/14 8:53
 
 EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
 

@@ -657,7 +657,7 @@ any components</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SML-E1X">
+<deviceset name="SML-E1X" prefix="LD">
 <gates>
 <gate name="G$1" symbol="SML-E1X" x="0" y="0"/>
 </gates>
@@ -6629,6 +6629,8 @@ DIN A3, landscape with location and doc. field</description>
 <smd name="30" x="-1.25" y="0" dx="2" dy="2" layer="1"/>
 <smd name="33" x="1.25" y="0" dx="2" dy="2" layer="1"/>
 <smd name="29" x="3.675" y="5.075" dx="1.25" dy="1.45" layer="1"/>
+<text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -6780,6 +6782,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="22u"/>
 </parts>
 <sheets>
 <sheet>
@@ -6835,11 +6839,13 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND11" gate="1" x="231.14" y="182.88"/>
 <instance part="+3V4" gate="G$1" x="220.98" y="215.9"/>
 <instance part="+3V5" gate="G$1" x="271.78" y="228.6"/>
-<instance part="P+3" gate="1" x="86.36" y="71.12"/>
+<instance part="P+3" gate="1" x="78.74" y="71.12"/>
 <instance part="+3V6" gate="G$1" x="132.08" y="73.66"/>
 <instance part="+3V7" gate="G$1" x="347.98" y="116.84"/>
 <instance part="+3V8" gate="G$1" x="27.94" y="198.12"/>
 <instance part="+3V9" gate="G$1" x="165.1" y="182.88"/>
+<instance part="GND19" gate="1" x="78.74" y="17.78"/>
+<instance part="C16" gate="G$1" x="78.74" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -6975,6 +6981,11 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="231.14" y="195.58"/>
 <junction x="231.14" y="200.66"/>
 </segment>
+<segment>
+<wire x1="78.74" y1="25.4" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="P04" class="0">
 <segment>
@@ -7029,14 +7040,14 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="BLE_RX" class="0">
 <segment>
-<wire x1="73.66" y1="205.74" x2="60.96" y2="205.74" width="0.1524" layer="91"/>
-<label x="58.42" y="205.74" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="P54"/>
-</segment>
-<segment>
 <pinref part="U$4" gate="G$1" pin="21"/>
 <wire x1="261.62" y1="190.5" x2="269.24" y2="190.5" width="0.1524" layer="91"/>
 <label x="269.24" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="193.04" x2="144.78" y2="193.04" width="0.1524" layer="91"/>
+<label x="144.78" y="193.04" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P00"/>
 </segment>
 </net>
 <net name="P20" class="0">
@@ -7212,14 +7223,14 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="BLE_TX" class="0">
 <segment>
-<wire x1="73.66" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
-<label x="56.896" y="203.2" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="P55"/>
-</segment>
-<segment>
 <pinref part="U$4" gate="G$1" pin="22"/>
 <wire x1="261.62" y1="187.96" x2="269.24" y2="187.96" width="0.1524" layer="91"/>
 <label x="269.24" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="195.58" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
+<label x="144.78" y="195.58" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P01"/>
 </segment>
 </net>
 <net name="P56" class="0">
@@ -7446,7 +7457,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="142.24" y1="86.36" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="78.74" y1="68.58" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="STBY"/>
+<wire x1="78.74" y1="58.42" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="58.42" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="VIN"/>
@@ -7454,9 +7469,9 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="86.36" y="38.1"/>
 <wire x1="86.36" y1="38.1" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <junction x="86.36" y="58.42"/>
+<junction x="78.74" y="58.42"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7577,9 +7592,9 @@ DIN A3, landscape with location and doc. field</description>
 <label x="269.24" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="193.04" x2="144.78" y2="193.04" width="0.1524" layer="91"/>
-<label x="144.78" y="193.04" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="P00"/>
+<wire x1="73.66" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
+<label x="56.896" y="203.2" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P55"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -7598,9 +7613,9 @@ DIN A3, landscape with location and doc. field</description>
 <label x="269.24" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="195.58" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
-<label x="144.78" y="195.58" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="P01"/>
+<wire x1="73.66" y1="205.74" x2="60.96" y2="205.74" width="0.1524" layer="91"/>
+<label x="58.42" y="205.74" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P54"/>
 </segment>
 </net>
 <net name="BLE_PRG" class="0">

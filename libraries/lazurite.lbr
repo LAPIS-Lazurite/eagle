@@ -2839,7 +2839,9 @@ any components</text>
 </symbols>
 <devicesets>
 <deviceset name="LAZURITE920J" prefix="U" uservalue="yes">
-<description>Lazurite 920J</description>
+<description>Lazurite 920J&lt;br&gt;
+HIROSUGI PSS-710103-10  1.27pitch 1x10pin pin header  x 2pcs&lt;br&gt;
+HIROSUGI PSS-720102-05 1.27pitch 2x5pin pin header&lt;br&gt;</description>
 <gates>
 <gate name="B" symbol="LAZURITE920J_1" x="0" y="2.54"/>
 <gate name="A" symbol="LAZURITE920J_0" x="0" y="27.94"/>

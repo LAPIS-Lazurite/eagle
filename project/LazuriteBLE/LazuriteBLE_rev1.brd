@@ -1449,6 +1449,18 @@ any components</text>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SKSGACE010">
+<smd name="6" x="1.7125" y="0" dx="0.7" dy="0.325" layer="1" rot="R90"/>
+<smd name="5" x="-1.7125" y="0" dx="0.7" dy="0.325" layer="1" rot="R90"/>
+<smd name="4" x="1.5625" y="-1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="2" x="-1.5625" y="-1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="1" x="-1.5625" y="1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="3" x="1.5625" y="1.4125" dx="0.625" dy="0.575" layer="1"/>
+<wire x1="-1.5" y1="1.35" x2="1.5" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.35" x2="1.5" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.35" x2="-1.5" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.35" x2="-1.5" y2="1.35" width="0.127" layer="51"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1757,6 +1769,7 @@ Your Multi-CB Team
 <attribute name="NAME" x="7.62" y="2.8575" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.43" y="5.3975" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="SW1" library="lz-shield" package="SKSGACE010" value="SKSGACE010" x="-2.54" y="-3.81"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1853,6 +1866,27 @@ Your Multi-CB Team
 <wire x1="21.625" y1="16.545" x2="21.9075" y2="16.8275" width="0.3048" layer="1"/>
 <wire x1="22.925" y1="15.205" x2="22.925" y2="16.445" width="0.3048" layer="1"/>
 <wire x1="22.925" y1="16.445" x2="22.86" y2="16.51" width="0.3048" layer="1"/>
+<contactref element="SW1" pad="4"/>
+<contactref element="SW1" pad="6"/>
+<wire x1="22.86" y1="16.51" x2="21.9075" y2="16.8275" width="0" layer="19" extent="1-1"/>
+<wire x1="20.125" y1="13.705" x2="20.375" y2="14.955" width="0" layer="19" extent="1-1"/>
+<wire x1="20.375" y1="7.905" x2="22.65" y2="10.18" width="0" layer="19" extent="1-1"/>
+<wire x1="18.0975" y1="7.3025" x2="20.32" y2="7.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.0975" y1="8.5725" x2="18.0975" y2="7.3025" width="0" layer="19" extent="1-1"/>
+<wire x1="18.0975" y1="6.0325" x2="18.0975" y2="7.3025" width="0" layer="19" extent="1-1"/>
+<wire x1="13.335" y1="6.0175" x2="16.8425" y2="6.0325" width="0" layer="19" extent="1-16"/>
+<wire x1="11.43" y1="5.9925" x2="11.445" y2="4.445" width="0" layer="19" extent="1-16"/>
+<wire x1="8.89" y1="8.0675" x2="10.93" y2="7.3425" width="0" layer="19" extent="1-1"/>
+<wire x1="3.175" y1="8.255" x2="5.715" y2="8.255" width="0" layer="19" extent="1-1"/>
+<wire x1="1.905" y1="8.255" x2="3.175" y2="8.255" width="0" layer="19" extent="1-1"/>
+<wire x1="5.715" y1="4.445" x2="5.715" y2="8.255" width="0" layer="19" extent="1-1"/>
+<wire x1="3.04" y1="3.065" x2="5.715" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.8275" y1="-3.81" x2="3.04" y2="3.065" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.9775" y1="-5.2225" x2="-0.8275" y2="-3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="10.45" y1="18.73" x2="11.45" y2="10.48" width="0" layer="19" extent="16-16"/>
+<wire x1="8.255" y1="22.225" x2="9.2075" y2="21.2725" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="20.6375" x2="8.255" y2="22.225" width="0" layer="19" extent="1-1"/>
+<wire x1="3.04" y1="21.065" x2="6.35" y2="20.6375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P04">
 <contactref element="U$1" pad="23"/>
@@ -2158,6 +2192,10 @@ Your Multi-CB Team
 </signal>
 <signal name="RESETN">
 <contactref element="U$1" pad="1"/>
+<contactref element="SW1" pad="1"/>
+<contactref element="SW1" pad="3"/>
+<wire x1="-0.9775" y1="-2.3975" x2="8.575" y2="11.855" width="0" layer="19" extent="1-16"/>
+<wire x1="-4.1025" y1="-2.3975" x2="-0.9775" y2="-2.3975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P30">
 <contactref element="U$1" pad="4"/>
@@ -2452,6 +2490,11 @@ Your Multi-CB Team
 <signal name="N$6">
 </signal>
 <signal name="N$9">
+</signal>
+<signal name="N$11">
+<contactref element="SW1" pad="2"/>
+<contactref element="SW1" pad="5"/>
+<wire x1="-4.2525" y1="-3.81" x2="-4.1025" y2="-5.2225" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

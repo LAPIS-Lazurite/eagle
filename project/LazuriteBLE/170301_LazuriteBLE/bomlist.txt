@@ -1,0 +1,32 @@
+Partlist
+
+Exported from LazuriteBLE_rev1.brd at 2017/03/01 0:27
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package                     Library   Position (mil)        Orientation
+
+C1       0.1u           C0402                       rcl       (375 800)             MR180
+C2       1u             C0402                       rcl       (250 737.5)           MR90
+C3       33000p         C0402                       rcl       (637.5 237.5)         MR180
+C4       2.2u           C0402                       rcl       (637.5 337.5)         MR180
+C5       2.2u           C0402                       rcl       (637.5 287.5)         MR180
+C8       2.2u           C0402                       rcl       (525 262.5)           R270
+C14      0.01u          C0402                       rcl       (275 300)             R90
+C16      22u            C1206                       rcl       (350 262.5)           R90
+C17      8p             C0402                       rcl       (300 175)             MR0
+C18      8p             C0402                       rcl       (425 175)             MR180
+R2       0              R0402                       rcl       (1062.5 662.5)        R180
+R13      1K             R0402                       rcl       (450 500)             R0
+R14      1K             R0402                       rcl       (450 400)             R180
+R15      1K             R0402                       rcl       (450 450)             R180
+U$1      ML620Q504      ML620Q504                   lazurite  (500 575)             MR90
+U$3      NX3215SA       NX3215SA-32,768K-SFD-MUA-14 lazurite  (350 275)             MR0
+U$4      MK71251-02     MK71251-02                  lz-shield (1000 450)            R270
+U$6      BH33PB1WFV     HVSOF5                      lazurite  (450 262.5)           R180
+U$16     SML-E12U8WT86  SML-E1X                     lazurite  (300 500)             R90
+U$17     SML-E12Y8W     SML-E1X                     lazurite  (300 400)             R90
+U$18     SML-E13BC8T    SML-E1X                     lazurite  (300 450)             R90
+U1                      LAZURITE920J2               lazurite  (75 275)              R0			別図の通りコネクタの実装をお願いします。

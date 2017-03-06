@@ -783,7 +783,7 @@ be 1mm</text>
 <package name="BK-913">
 <smd name="GND" x="0" y="0" dx="3.96" dy="3.96" layer="1"/>
 <pad name="VDD1" x="-10.8" y="0" drill="2" diameter="4"/>
-<pad name="VDD2" x="10.79" y="0" drill="2" diameter="4"/>
+<pad name="VDD2" x="10.8" y="0" drill="2" diameter="4"/>
 <wire x1="-10.54" y1="7.62" x2="10.54" y2="7.62" width="0.127" layer="51"/>
 <wire x1="10.54" y1="7.62" x2="10.54" y2="-7.62" width="0.127" layer="51"/>
 <wire x1="10.54" y1="-7.62" x2="-10.54" y2="-7.62" width="0.127" layer="51"/>

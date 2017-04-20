@@ -6632,6 +6632,21 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SKSGACE010">
+<smd name="6" x="1.7125" y="0" dx="0.7" dy="0.325" layer="1" rot="R90"/>
+<smd name="5" x="-1.7125" y="0" dx="0.7" dy="0.325" layer="1" rot="R90"/>
+<smd name="4" x="1.5625" y="-1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="2" x="-1.5625" y="-1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="1" x="-1.5625" y="1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="3" x="1.5625" y="1.4125" dx="0.625" dy="0.575" layer="1"/>
+<wire x1="-1.5" y1="1.35" x2="1.5" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.35" x2="1.5" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.35" x2="-1.5" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.35" x2="-1.5" y2="1.35" width="0.127" layer="51"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-0.9525" y="0.9525" radius="0.0635" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MK71251-02">
@@ -6675,6 +6690,29 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-5.08" y="23.495" size="1.778" layer="95">&gt;NAME</text>
 <text x="7.62" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SKSGACE010">
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="middle"/>
+<pin name="2" x="-10.16" y="-5.08" visible="pad" length="middle"/>
+<pin name="3" x="10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-10.16" visible="pad" length="middle" direction="pwr"/>
+<pin name="6" x="10.16" y="-10.16" visible="pad" length="middle" direction="pwr" rot="R180"/>
+<circle x="0" y="2.54" radius="0.803215625" width="0.254" layer="94"/>
+<circle x="0" y="-2.286" radius="0.71841875" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="4.064" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MK71251-02">
@@ -6717,6 +6755,33 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SKSGACE010" prefix="SW">
+<description>&lt;h1&gt; ALPS SKSGACE010 &lt;/h1&gt;
+&lt;h3&gt; technical information&lt;br&gt;&lt;/h3&gt;
+&lt;a href="http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKSG/SKSGACE010.html" &gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;h3&gt; distributer site&lt;/h3&gt;
+&lt;a href="http://www.chip1stop.com/dispDetail.do?partId=ALPS-0006455" &gt;chip1stop&lt;br&gt;&lt;/a&gt;
+&lt;a href="http://www.mouser.jp/ProductDetail/ALPS/SKSGACE010/?qs=Ptl%2fSkKmb3BEFq%252bG855%2fog==" &gt;Mouser&lt;br&gt;&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SKSGACE010" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SKSGACE010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6784,6 +6849,9 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="22u"/>
+<part name="SW1" library="lz-shield" deviceset="SKSGACE010" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6792,7 +6860,7 @@ DIN A3, landscape with location and doc. field</description>
 <text x="309.372" y="92.202" size="1.778" layer="91">26</text>
 <text x="294.64" y="10.16" size="2.54" layer="91" font="vector">Naotaka Saito
 161229 preriminaly</text>
-<text x="20.32" y="124.46" size="6.4516" layer="91">RESET button追加</text>
+<text x="182.88" y="45.72" size="6.4516" layer="91">RESET button追加</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="142.24" y="165.1"/>
@@ -6846,6 +6914,9 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="+3V9" gate="G$1" x="165.1" y="182.88"/>
 <instance part="GND19" gate="1" x="78.74" y="17.78"/>
 <instance part="C16" gate="G$1" x="78.74" y="30.48"/>
+<instance part="SW1" gate="G$1" x="40.64" y="134.62"/>
+<instance part="GND12" gate="1" x="50.8" y="109.22"/>
+<instance part="GND13" gate="1" x="30.48" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -6985,6 +7056,22 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="78.74" y1="25.4" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="4"/>
+<wire x1="50.8" y1="129.54" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="SW1" gate="G$1" pin="6"/>
+<junction x="50.8" y="124.46"/>
+<wire x1="50.8" y1="124.46" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<pinref part="SW1" gate="G$1" pin="5"/>
+<wire x1="30.48" y1="129.54" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="30.48" y1="124.46" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<junction x="30.48" y="124.46"/>
 </segment>
 </net>
 <net name="P04" class="0">
@@ -7283,9 +7370,16 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="RESETN" class="0">
 <segment>
-<wire x1="88.9" y1="162.56" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="162.56" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
 <label x="88.9" y="147.32" size="1.778" layer="95" font="vector" rot="R90"/>
 <pinref part="U$1" gate="G$1" pin="RESET_N"/>
+<pinref part="SW1" gate="G$1" pin="3"/>
+<wire x1="50.8" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="139.7" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="144.78" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
+<junction x="50.8" y="139.7"/>
 </segment>
 </net>
 <net name="P30" class="0">

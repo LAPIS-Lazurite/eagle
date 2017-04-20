@@ -20,7 +20,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1449,6 +1449,21 @@ any components</text>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SKSGACE010">
+<smd name="6" x="1.7125" y="0" dx="0.7" dy="0.325" layer="1" rot="R90"/>
+<smd name="5" x="-1.7125" y="0" dx="0.7" dy="0.325" layer="1" rot="R90"/>
+<smd name="4" x="1.5625" y="-1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="2" x="-1.5625" y="-1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="1" x="-1.5625" y="1.4125" dx="0.625" dy="0.575" layer="1"/>
+<smd name="3" x="1.5625" y="1.4125" dx="0.625" dy="0.575" layer="1"/>
+<wire x1="-1.5" y1="1.35" x2="1.5" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.35" x2="1.5" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.35" x2="-1.5" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.35" x2="-1.5" y2="1.35" width="0.127" layer="51"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-0.9525" y="0.9525" radius="0.0635" width="0.127" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1757,6 +1772,7 @@ Your Multi-CB Team
 <attribute name="NAME" x="7.62" y="2.8575" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.43" y="5.3975" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="SW1" library="lz-shield" package="SKSGACE010" value="SKSGACE010" x="2.8575" y="15.5575"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1853,6 +1869,17 @@ Your Multi-CB Team
 <wire x1="21.625" y1="16.545" x2="21.9075" y2="16.8275" width="0.3048" layer="1"/>
 <wire x1="22.925" y1="15.205" x2="22.925" y2="16.445" width="0.3048" layer="1"/>
 <wire x1="22.925" y1="16.445" x2="22.86" y2="16.51" width="0.3048" layer="1"/>
+<contactref element="SW1" pad="4"/>
+<via x="3.4925" y="15.5575" extent="1-16" drill="0.3048"/>
+<contactref element="SW1" pad="6"/>
+<contactref element="SW1" pad="2"/>
+<contactref element="SW1" pad="5"/>
+<wire x1="1.145" y1="15.5575" x2="3.4925" y2="15.5575" width="0.2032" layer="1"/>
+<wire x1="1.295" y1="14.145" x2="1.295" y2="15.4075" width="0.2032" layer="1"/>
+<wire x1="1.295" y1="15.4075" x2="1.145" y2="15.5575" width="0.2032" layer="1"/>
+<wire x1="3.4925" y1="15.5575" x2="4.57" y2="15.5575" width="0.2032" layer="1"/>
+<wire x1="4.57" y1="15.5575" x2="4.57" y2="14.295" width="0.2032" layer="1"/>
+<wire x1="4.57" y1="14.295" x2="4.42" y2="14.145" width="0.2032" layer="1"/>
 </signal>
 <signal name="P04">
 <contactref element="U$1" pad="23"/>
@@ -1951,9 +1978,11 @@ Your Multi-CB Team
 <via x="12.3825" y="16.1925" extent="1-16" drill="0.3048"/>
 <wire x1="12.3825" y1="16.1925" x2="6.0325" y2="16.1925" width="0.2032" layer="2"/>
 <via x="6.0325" y="16.1925" extent="1-16" drill="0.3048"/>
-<wire x1="6.795" y1="12.7" x2="6.0325" y2="12.7" width="0.2032" layer="1"/>
-<wire x1="6.0325" y1="12.7" x2="5.715" y2="13.0175" width="0.2032" layer="1"/>
-<wire x1="5.715" y1="13.0175" x2="5.715" y2="15.875" width="0.2032" layer="1"/>
+<wire x1="6.795" y1="12.7" x2="6.795" y2="14.16" width="0.2032" layer="1"/>
+<wire x1="6.795" y1="14.16" x2="6.35" y2="14.605" width="0.2032" layer="1"/>
+<wire x1="6.35" y1="14.605" x2="6.0325" y2="14.605" width="0.2032" layer="1"/>
+<wire x1="6.0325" y1="14.605" x2="5.715" y2="14.9225" width="0.2032" layer="1"/>
+<wire x1="5.715" y1="14.9225" x2="5.715" y2="15.875" width="0.2032" layer="1"/>
 <wire x1="5.715" y1="15.875" x2="6.0325" y2="16.1925" width="0.2032" layer="1"/>
 </signal>
 <signal name="P03">
@@ -2162,6 +2191,17 @@ Your Multi-CB Team
 </signal>
 <signal name="RESETN">
 <contactref element="U$1" pad="1"/>
+<contactref element="SW1" pad="3"/>
+<contactref element="SW1" pad="1"/>
+<wire x1="5.08" y1="16.51" x2="4.62" y2="16.97" width="0.2032" layer="1"/>
+<wire x1="4.62" y1="16.97" x2="4.42" y2="16.97" width="0.2032" layer="1"/>
+<wire x1="1.295" y1="16.97" x2="4.42" y2="16.97" width="0.2032" layer="1"/>
+<wire x1="8.575" y1="11.855" x2="6.56" y2="11.855" width="0.2032" layer="16"/>
+<wire x1="6.56" y1="11.855" x2="5.715" y2="12.7" width="0.2032" layer="16"/>
+<via x="5.715" y="12.7" extent="1-16" drill="0.3048"/>
+<wire x1="5.715" y1="12.7" x2="5.715" y2="13.97" width="0.2032" layer="1"/>
+<wire x1="5.715" y1="13.97" x2="5.08" y2="14.605" width="0.2032" layer="1"/>
+<wire x1="5.08" y1="14.605" x2="5.08" y2="16.51" width="0.2032" layer="1"/>
 </signal>
 <signal name="P30">
 <contactref element="U$1" pad="4"/>

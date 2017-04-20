@@ -183,7 +183,6 @@ UsedLibrary="/Applications/EAGLE-7.6.0/lbr/jump-0r-smd.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/jumper.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lantronix.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lattice.lbr"
-UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lazurite.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lc-filter.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/led-7-segment.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/led-citizen-electronics.lbr"
@@ -197,7 +196,6 @@ UsedLibrary="/Applications/EAGLE-7.6.0/lbr/logo.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lprs.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lsi-computer-systems.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lumiled.lbr"
-UsedLibrary="/Applications/EAGLE-7.6.0/lbr/lz-shield.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/marks.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/maxim.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/maxstream.lbr"
@@ -353,14 +351,22 @@ UsedLibrary="/Applications/EAGLE-7.6.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-7.6.0/lbr/zilog.lbr"
+UsedLibrary="/Users/qitengzhixiao/Documents/github/eagle/libraries/lazurite.lbr"
+UsedLibrary="/Users/qitengzhixiao/Documents/github/eagle/libraries/lz-shield.lbr"
 
 [Win_1]
+Type="Control Panel"
+Loc="0 23 1439 825"
+State=2
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
-Loc="0 0 1439 899"
+Loc="0 23 1439 825"
 State=2
 Number=1
-File="LazuriteBLE_rev1.sch"
-View="222.5 86.9935 343.341 229.85"
+File="/Users/qitengzhixiao/Documents/eagle/mini_tester/mini_tester_shield2.sch"
+View="24.0269 63.5203 161.886 162.487"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -399,16 +405,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 222.5 86.9935 343.341 229.85"
+Views=" 1: 24.0269 63.5203 161.886 162.487"
 Sheet="1"
 
-[Win_2]
+[Win_3]
 Type="Board Editor"
-Loc="0 0 1439 899"
+Loc="0 23 1439 825"
 State=2
 Number=2
-File="LazuriteBLE_rev1.brd"
-View="-2.56126 2.2642 28.0051 25.0735"
+File="/Users/qitengzhixiao/Documents/eagle/mini_tester/mini_tester_shield2.brd"
+View="-13.9365 -1.0668 70.198 54.4068"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -447,12 +453,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=16
-
-[Win_3]
-Type="Control Panel"
-Loc="0 23 1439 825"
-State=2
-Number=0
 
 [Desktop]
 Screen="1440 900"

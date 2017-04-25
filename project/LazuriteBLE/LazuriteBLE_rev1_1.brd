@@ -23,7 +23,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -92,6 +92,13 @@
 <wire x1="0" y1="24" x2="0" y2="0" width="0" layer="20"/>
 <text x="27.305" y="0.9525" size="1.27" layer="22" font="fixed" rot="SMR90">Lazurite BLE rev1</text>
 <text x="29.845" y="0.9525" size="1.778" layer="22" rot="MR90">LAPIS</text>
+<text x="19.685" y="1.5875" size="0.8128" layer="21" font="fixed">13-4</text>
+<text x="19.685" y="21.9075" size="0.8128" layer="21" font="fixed">V,G,14-19,3,2</text>
+<text x="9.8425" y="19.3675" size="1.4224" layer="21" font="fixed">Lazurite BLE</text>
+<text x="10.795" y="16.8275" size="0.8128" layer="21" font="fixed">developed in Japan
+made in Japan</text>
+<text x="0.9525" y="13.0175" size="0.8128" layer="21" font="fixed">1</text>
+<text x="3.175" y="13.0175" size="0.8128" layer="21" font="fixed">0</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1407,6 +1414,25 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <text x="25.4" y="-2.54" size="1.27" layer="51" rot="R90">Don't place
 any components</text>
 <wire x1="17.78" y1="17.08" x2="17.78" y2="-6.92" width="0.127" layer="51"/>
+<polygon width="0.127" layer="22">
+<vertex x="-1.27" y="-1.5875"/>
+<vertex x="0" y="-1.5875"/>
+<vertex x="-0.635" y="-0.9525"/>
+</polygon>
+</package>
+<package name="LOGO">
+<wire x1="0.635" y1="1.27" x2="2.54" y2="2.8575" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.3175" x2="3.4925" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.5875" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="1.905" x2="1.5875" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="1.905" x2="2.54" y2="1.5875" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.8575" x2="2.54" y2="1.5875" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.8575" x2="3.4925" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.3175" x2="3.175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-0.3175" x2="3.4925" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.9525" x2="3.175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.5875" x2="3.175" y2="-0.3175" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1773,6 +1799,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="11.43" y="5.3975" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SW1" library="lz-shield" package="SKSGACE010" value="SKSGACE010" x="2.8575" y="15.5575"/>
+<element name="U$2" library="lazurite" package="LOGO" value="" x="5.08" y="17.4625"/>
 </elements>
 <signals>
 <signal name="GND">

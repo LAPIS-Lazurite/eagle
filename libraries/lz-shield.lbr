@@ -587,7 +587,7 @@ be 1mm</text>
 <smd name="16" x="-0.5" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
 <smd name="15" x="0" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
 <smd name="14" x="0.5" y="1.225" dx="0.35" dy="0.25" layer="1" rot="R270"/>
-<circle x="-1.905" y="1.27" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.2098" y="1.5748" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>

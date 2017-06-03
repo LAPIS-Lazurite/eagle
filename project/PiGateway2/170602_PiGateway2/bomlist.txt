@@ -1,0 +1,23 @@
+Partlist
+
+Exported from PiGateway2_2.brd at 2017/06/02 19:56
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value               Package  Library  Position (mm)         Orientation
+
+JP1                          2X20     pinhead  (32.5 26.5)           R0
+R1       10K                 R0402    rcl      (18.415 19.05)        R270
+R3       10K                 R0402    rcl      (10.795 19.05)        R270
+R4       10K                 R0402    rcl      (13.335 19.05)        R270
+R5       10K                 R0402    rcl      (20.955 19.05)        R270
+R6       10K                 R0402    rcl      (15.875 19.05)        R270
+R7       0                   R0402    rcl      (15.875 13.335)       R90
+R8       NC                  R0402    rcl      (18.415 13.335)       R90
+R14      1K                  R0402    rcl      (26.035 13.97)        R90
+R15      1K                  R0402    rcl      (23.495 13.97)        R90
+U$17     SML-E12Y8W          SML-E1X  lazurite (26.035 19.05)        R0
+U$18     SML-E13BC8T         SML-E1X  lazurite (23.495 19.05)        R0
+U$20     DF40C-20DP-0.4V(51) BP3596A  lazurite (31.75 11.43)         R270

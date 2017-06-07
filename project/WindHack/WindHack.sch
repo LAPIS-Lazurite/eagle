@@ -7513,7 +7513,6 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="U8" library="con-hirose" deviceset="MICRO-USB-SHIELD-" device="ZX62R-B-5P"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -7532,6 +7531,7 @@ Red LED</text>
 <text x="127" y="15.24" size="3.81" layer="95">Power SW</text>
 <text x="172.72" y="15.24" size="3.81" layer="95">BT SW</text>
 <text x="294.64" y="12.7" size="3.81" layer="95">Yoshiyuki Tanaka</text>
+<text x="343.916" y="20.32" size="2.54" layer="95">Rev1A'</text>
 </plain>
 <instances>
 <instance part="SCHEMA" gate="G$1" x="0" y="0"/>
@@ -7629,7 +7629,6 @@ Red LED</text>
 <instance part="C14" gate="G$1" x="182.88" y="116.84"/>
 <instance part="GND25" gate="1" x="182.88" y="96.52"/>
 <instance part="+3V10" gate="G$1" x="96.52" y="71.12"/>
-<instance part="GND27" gate="1" x="200.66" y="101.6"/>
 <instance part="U8" gate="G$1" x="246.38" y="213.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="242.57" y="215.9" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
@@ -7738,10 +7737,14 @@ Red LED</text>
 <wire x1="203.2" y1="129.54" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="12"/>
 <wire x1="205.74" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="129.54" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="129.54" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="119.38" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
 <junction x="233.68" y="109.22"/>
 <junction x="203.2" y="129.54"/>
+<pinref part="U5" gate="G$1" pin="20"/>
+<wire x1="205.74" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<junction x="203.2" y="119.38"/>
 </segment>
 <segment>
 <pinref part="U1" gate="B" pin="GND_0"/>
@@ -7922,12 +7925,6 @@ Red LED</text>
 <wire x1="190.5" y1="111.76" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <junction x="182.88" y="106.68"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="20"/>
-<wire x1="205.74" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="119.38" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$2" pin="5"/>
@@ -8484,6 +8481,26 @@ Red LED</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,147.32,104.14,U3,IO_VDD,+3V3,,,"/>
+<approved hash="202,1,147.32,99.06,U3,AUX_CL,,,,"/>
+<approved hash="104,1,116.84,114.3,U3,VDD,+3V3,,,"/>
+<approved hash="104,1,193.04,220.98,U2,VSS,GND,,,"/>
+<approved hash="104,1,180.34,208.28,U2,VDD,+3V3,,,"/>
+<approved hash="104,1,368.3,187.96,U10,VDD1,N$8,,,"/>
+<approved hash="104,1,337.82,187.96,U10,VDD2,N$8,,,"/>
+<approved hash="104,1,73.66,231.14,U7,VDD,LDO3V,,,"/>
+<approved hash="104,1,73.66,228.6,U7,VSS,GND,,,"/>
+<approved hash="104,1,106.68,208.28,U7,SHLD,GND,,,"/>
+<approved hash="104,1,106.68,205.74,U7,SHLD,GND,,,"/>
+<approved hash="104,1,106.68,203.2,U7,SHLD,GND,,,"/>
+<approved hash="104,1,106.68,200.66,U7,SHLD,GND,,,"/>
+<approved hash="104,1,48.26,71.12,U4,AVDD,+3V3,,,"/>
+<approved hash="104,1,35.56,86.36,U4,DVDD,+3V3,,,"/>
+<approved hash="202,1,256.54,220.98,U8G$2,2,,,,"/>
+<approved hash="202,1,256.54,223.52,U8G$2,3,,,,"/>
+<approved hash="202,1,256.54,226.06,U8G$2,4,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

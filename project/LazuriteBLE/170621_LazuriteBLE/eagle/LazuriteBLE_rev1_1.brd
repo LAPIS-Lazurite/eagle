@@ -99,9 +99,7 @@
 made in Japan</text>
 <text x="0.9525" y="13.0175" size="0.8128" layer="21" font="fixed">1</text>
 <text x="3.175" y="13.0175" size="0.8128" layer="21" font="fixed">0</text>
-<text x="-5.08" y="-8.89" size="1.778" layer="51" font="vector">ORIGIN
-Lazurite BLE rev1.1
-2017.6.20</text>
+<text x="0" y="-2.54" size="1.778" layer="51" font="vector">ORIGIN</text>
 </plain>
 <libraries>
 <library name="rcl">

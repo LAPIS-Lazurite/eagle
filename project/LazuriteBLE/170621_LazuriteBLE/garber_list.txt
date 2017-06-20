@@ -1,0 +1,13 @@
+drd.grb				Drill data
+dri.grb				Drill list
+mtl_btm.grb			Metal (bottom side)
+mtl_top.grb			Metal (top side)
+outline.grb			Outline
+ptn_btm.grb			Pattern(Bottom side)
+ptn_sec.grb			Pattern(2'nd top)
+ptn_thi.grb			Pattern(3rd top)
+ptn_top.grb			Pattern(Component side)
+res_btm.grb			Resist (bottom side)
+res_top.grb			Resist (bottom side)
+slk_btm.grb			Silk (bottom side)
+slk_top.grb			Silk (top side)

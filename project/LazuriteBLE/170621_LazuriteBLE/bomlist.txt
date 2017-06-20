@@ -1,0 +1,33 @@
+Partlist
+
+Exported from LazuriteBLE_rev1_1.brd at 2017/06/21 0:21
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package                     Library   Position (mm)         Orientation
+
+C1       0.1u           C0402                       rcl       (9.525 20.32)         MR180
+C2       1u             C0402                       rcl       (6.35 18.7325)        MR90
+C3       33000p         C0402                       rcl       (16.1925 6.0325)      MR180
+C4       2.2u           C0402                       rcl       (16.1925 8.5725)      MR180
+C5       2.2u           C0402                       rcl       (16.1925 7.3025)      MR180
+C8       2.2u           C0402                       rcl       (13.335 6.6675)       R270
+C14      0.01u          C0402                       rcl       (6.985 7.62)          R90
+C16      22u            C1206                       rcl       (8.89 6.6675)         R90
+C17      8p             C0402                       rcl       (7.62 4.445)          MR0
+C18      8p             C0402                       rcl       (10.795 4.445)        MR180
+R2       0              R0402                       rcl       (26.9875 16.8275)     R180
+R13      1K             R0402                       rcl       (11.43 12.7)          R0
+R14      1K             R0402                       rcl       (11.43 10.16)         R180
+R15      1K             R0402                       rcl       (11.43 11.43)         R180
+SW1      ALPS           SKSGACE010                  lz-shield (2.8575 15.5575)      R0     ALPSのコネクタです。部品購入にて対応をお願いします。
+U$1      ML620Q504      ML620Q504                   lazurite  (12.7 14.605)         MR90
+U$3      NX3215SA       NX3215SA-32,768K-SFD-MUA-14 lazurite  (8.89 6.985)          MR0
+U$4      MK71251-02     MK71251-02                  lz-shield (25.4 11.43)          R270
+U$6      BH33PB1WFV     HVSOF5                      lazurite  (11.43 6.6675)        R180
+U$16     SML-E12U8WT86  SML-E1X                     lazurite  (7.62 12.7)           R90
+U$17     SML-E12Y8W     SML-E1X                     lazurite  (7.62 10.16)          R90
+U$18     SML-E13BC8T    SML-E1X                     lazurite  (7.62 11.43)          R90
+U1                      LAZURITE920J2               lazurite  (1.905 6.985)         R0     3つのコネクタ部品です。別図の通りコネクタの実装をお願いします。

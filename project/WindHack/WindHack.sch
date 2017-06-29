@@ -1055,8 +1055,8 @@ any components</text>
 <wire x1="0" y1="1.016" x2="0" y2="-1.524" width="0.1524" layer="94"/>
 <text x="3.556" y="-3.556" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-3.556" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="2.54" length="middle" direction="pas" rot="R270"/>
-<pin name="A" x="0" y="-3.81" length="middle" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="3.556" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-4.064" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="BM1422AGMV">
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
@@ -7531,7 +7531,7 @@ Red LED</text>
 <text x="127" y="15.24" size="3.81" layer="95">Power SW</text>
 <text x="172.72" y="15.24" size="3.81" layer="95">BT SW</text>
 <text x="294.64" y="12.7" size="3.81" layer="95">Yoshiyuki Tanaka</text>
-<text x="343.916" y="20.32" size="2.54" layer="95">Rev1A'</text>
+<text x="343.916" y="20.32" size="2.54" layer="95">Rev1A''</text>
 </plain>
 <instances>
 <instance part="SCHEMA" gate="G$1" x="0" y="0"/>
@@ -7613,7 +7613,7 @@ Red LED</text>
 <instance part="GND20" gate="1" x="261.62" y="177.8" smashed="yes">
 <attribute name="VALUE" x="259.08" y="175.26" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="363.22" y="208.28" rot="R180"/>
+<instance part="D1" gate="G$1" x="355.6" y="210.82" rot="R180"/>
 <instance part="+3V6" gate="G$1" x="322.58" y="208.28"/>
 <instance part="U4" gate="BM1422AGMV" x="53.34" y="88.9" rot="R180"/>
 <instance part="GND21" gate="1" x="22.86" y="83.82"/>
@@ -8439,11 +8439,6 @@ Red LED</text>
 </net>
 <net name="+3V_RSV" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="363.22" y1="212.09" x2="363.22" y2="220.98" width="0.1524" layer="91"/>
-<label x="360.68" y="231.14" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="14"/>
 <wire x1="205.74" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="127" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
@@ -8451,6 +8446,12 @@ Red LED</text>
 <wire x1="190.5" y1="119.38" x2="190.5" y2="127" width="0.1524" layer="91"/>
 <junction x="190.5" y="127"/>
 <label x="190.5" y="152.4" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="214.884" x2="355.6" y2="222.504" width="0.1524" layer="91"/>
+<label x="358.14" y="218.44" size="1.778" layer="95" rot="R90"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<junction x="355.6" y="214.884"/>
 </segment>
 </net>
 <net name="RF_SW" class="0">
@@ -8469,13 +8470,13 @@ Red LED</text>
 <segment>
 <pinref part="U10" gate="G$1" pin="VDD2"/>
 <wire x1="337.82" y1="187.96" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="198.12" x2="363.22" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="198.12" x2="355.6" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U10" gate="G$1" pin="VDD1"/>
-<wire x1="363.22" y1="198.12" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="198.12" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="198.12" x2="368.3" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="363.22" y1="205.74" x2="363.22" y2="198.12" width="0.1524" layer="91"/>
-<junction x="363.22" y="198.12"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="355.6" y1="198.12" x2="355.6" y2="207.264" width="0.1524" layer="91"/>
+<junction x="355.6" y="198.12"/>
 </segment>
 </net>
 </nets>

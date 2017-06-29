@@ -9,16 +9,16 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -32,20 +32,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2309,9 +2309,9 @@ Your Eurocircuits Team
 <attribute name="NAME" x="58.1406" y="35.4838" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="58.42" y="34.29" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="lz-shield" package="RF071MM2S" value="RF071MM2S" x="36.15" y="22.606" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.1732" y="20.3708" size="1.27" layer="25"/>
-<attribute name="VALUE" x="38.69" y="25.146" size="1.27" layer="27" rot="R180"/>
+<element name="D1" library="lz-shield" package="RF071MM2S" value="RF071MM2S" x="36.1384" y="22.606" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.1152" y="24.8412" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="33.5984" y="20.066" size="1.27" layer="27"/>
 </element>
 <element name="U4" library="lz-shield" package="BM1422AGMV" value="BM1422AGMV" x="45.212" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.7962" y="15.7734" size="1.27" layer="25"/>
@@ -3099,7 +3099,6 @@ Your Eurocircuits Team
 <signal name="N$12">
 </signal>
 <signal name="+3V_RSV">
-<contactref element="D1" pad="A"/>
 <contactref element="U5" pad="14"/>
 <contactref element="C6" pad="1"/>
 <via x="30.2768" y="33.6296" extent="1-16" drill="0.3048"/>
@@ -3108,12 +3107,13 @@ Your Eurocircuits Team
 <via x="31.0388" y="31.7754" extent="1-16" drill="0.3048"/>
 <wire x1="30.2768" y1="33.6296" x2="31.0388" y2="32.8676" width="0.2032" layer="16"/>
 <wire x1="31.0388" y1="32.8676" x2="31.0388" y2="31.7754" width="0.2032" layer="16"/>
-<wire x1="35.3036" y1="20.3898" x2="34.625" y2="21.0684" width="0.3048" layer="1"/>
-<wire x1="34.625" y1="21.0684" x2="34.625" y2="22.606" width="0.3048" layer="1"/>
 <wire x1="31.0388" y1="31.7754" x2="33.5534" y2="31.7754" width="0.3048" layer="1"/>
 <wire x1="33.5534" y1="31.7754" x2="34.6964" y2="30.6324" width="0.3048" layer="1"/>
-<wire x1="34.6964" y1="30.6324" x2="34.6964" y2="22.6774" width="0.3048" layer="1"/>
-<wire x1="34.6964" y1="22.6774" x2="34.625" y2="22.606" width="0.3048" layer="1"/>
+<wire x1="34.6964" y1="30.6324" x2="34.6964" y2="22.606" width="0.3048" layer="1"/>
+<wire x1="34.6964" y1="22.606" x2="34.6964" y2="20.997" width="0.3048" layer="1"/>
+<wire x1="34.6964" y1="20.997" x2="35.3036" y2="20.3898" width="0.3048" layer="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="34.6134" y1="22.606" x2="34.6964" y2="22.606" width="0.3048" layer="1"/>
 </signal>
 <signal name="RF_SW">
 <contactref element="U1" pad="3"/>
@@ -3127,12 +3127,13 @@ Your Eurocircuits Team
 <signal name="N$8">
 <contactref element="U10" pad="VDD2"/>
 <contactref element="U10" pad="VDD1"/>
-<contactref element="D1" pad="C"/>
 <wire x1="16.9114" y1="26.6446" x2="20.696" y2="22.86" width="0.6096" layer="16"/>
 <wire x1="20.696" y1="22.86" x2="34.7168" y2="22.86" width="0.6096" layer="16"/>
 <wire x1="38.5014" y1="26.6446" x2="34.7168" y2="22.86" width="0.6096" layer="16"/>
 <wire x1="38.5014" y1="26.6446" x2="38.5014" y2="23.4324" width="0.3048" layer="1"/>
-<wire x1="38.5014" y1="23.4324" x2="37.675" y2="22.606" width="0.3048" layer="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="37.6634" y1="22.606" x2="37.675" y2="22.606" width="0.2032" layer="1"/>
+<wire x1="37.675" y1="22.606" x2="38.5014" y2="23.4324" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -3494,30 +3495,30 @@ Your Eurocircuits Team
 <approved hash="4,1,e68a1f466875eaf0"/>
 <approved hash="4,1,2008391dfd0d36da"/>
 <approved hash="4,1,a8d3abf84caa50ab"/>
-<approved hash="4,1,60c69773bc182ed4"/>
-<approved hash="4,1,6c0a52551e18453e"/>
-<approved hash="4,1,e58f3b5d388ae658"/>
-<approved hash="4,1,e5b0dd7411364c8b"/>
-<approved hash="4,1,ec0332d13257ec85"/>
-<approved hash="4,1,e7c01674bdff2932"/>
-<approved hash="4,1,7f955ddb1618512f"/>
-<approved hash="4,1,e2eb3c392030fee2"/>
-<approved hash="4,1,6fd3946dbf3821ff"/>
-<approved hash="4,1,e3eb3d39c0871e55"/>
-<approved hash="4,1,1acb166cbd55d48b"/>
-<approved hash="4,1,ea51dd101102433a"/>
-<approved hash="4,1,97bb5a8b1678be31"/>
-<approved hash="4,1,956d9745bc7cdb2d"/>
-<approved hash="4,1,e0ef3e3d3238ecea"/>
-<approved hash="4,1,7bcc946fbf54358e"/>
-<approved hash="4,1,e1933f410096de44"/>
 <approved hash="4,1,e2ef3c3d243bfae9"/>
 <approved hash="4,1,1e96ddd01012b62d"/>
-<approved hash="4,1,efef313d3643e891"/>
-<approved hash="4,1,f2711744bc793c35"/>
+<approved hash="4,1,956d9745bc7cdb2d"/>
+<approved hash="4,1,97bb5a8b1678be31"/>
+<approved hash="4,1,e0ef3e3d3238ecea"/>
+<approved hash="4,1,e58f3b5d388ae658"/>
+<approved hash="4,1,6c0a52551e18453e"/>
+<approved hash="4,1,60c69773bc182ed4"/>
+<approved hash="4,1,6fd3946dbf3821ff"/>
+<approved hash="4,1,e2eb3c392030fee2"/>
+<approved hash="4,1,7f955ddb1618512f"/>
+<approved hash="4,1,ea51dd101102433a"/>
+<approved hash="4,1,e3eb3d39c0871e55"/>
+<approved hash="4,1,1acb166cbd55d48b"/>
 <approved hash="4,1,f0bbdcf410065930"/>
-<approved hash="4,1,77787d47f27bf21d"/>
+<approved hash="4,1,f2711744bc793c35"/>
+<approved hash="4,1,efef313d3643e891"/>
+<approved hash="4,1,e7c01674bdff2932"/>
+<approved hash="4,1,ec0332d13257ec85"/>
+<approved hash="4,1,e5b0dd7411364c8b"/>
+<approved hash="4,1,e1933f410096de44"/>
+<approved hash="4,1,7bcc946fbf54358e"/>
 <approved hash="4,1,ffa55000bb767bb1"/>
+<approved hash="4,1,77787d47f27bf21d"/>
 <approved hash="4,16,f851019bfbc86ecb"/>
 <approved hash="4,16,43b93ed28b2b9ba7"/>
 <approved hash="4,16,7f955ddb1618512f"/>

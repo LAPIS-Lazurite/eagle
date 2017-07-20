@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -341,22 +341,22 @@
 <wire x1="10.55" y1="-3.5" x2="10.55" y2="-5.15" width="0.127" layer="21"/>
 </package>
 <package name="XB-1-X">
-<smd name="1_1" x="-5.08" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="2_2" x="-3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="3_2" x="-2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="1_2" x="-5.08" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="2_1" x="-3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="3_1" x="-2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="4_1" x="-1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="5_1" x="0" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="6_1" x="1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="7_1" x="2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="8_1" x="3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="4_2" x="-1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="5_2" x="0" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="6_2" x="1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="7_2" x="2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
-<smd name="8_2" x="3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="8_1" x="-5.08" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="7_2" x="-3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="6_2" x="-2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="8_2" x="-5.08" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="7_1" x="-3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="6_1" x="-2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="5_1" x="-1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="4_1" x="0" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="3_1" x="1.27" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="2_1" x="2.54" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="1_1" x="3.81" y="0" dx="1.5" dy="1.1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="5_2" x="-1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="4_2" x="0" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="3_2" x="1.27" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="2_2" x="2.54" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="1_2" x="3.81" y="0" dx="1.5" dy="1.1" layer="16" roundness="100" rot="R90" cream="no"/>
 <hole x="-5.08" y="0" drill="0.85"/>
 <hole x="-3.81" y="0" drill="0.85"/>
 <hole x="-2.54" y="0" drill="0.85"/>
@@ -365,6 +365,22 @@
 <hole x="1.27" y="0" drill="0.85"/>
 <hole x="2.54" y="0" drill="0.85"/>
 <hole x="3.81" y="0" drill="0.85"/>
+<wire x1="-10" y1="6" x2="9" y2="6" width="0.127" layer="48"/>
+<wire x1="9" y1="6" x2="9" y2="-18" width="0.127" layer="48"/>
+<wire x1="9" y1="-18" x2="-10" y2="-18" width="0.127" layer="48"/>
+<wire x1="-10" y1="-18" x2="-10" y2="6" width="0.127" layer="48"/>
+<text x="4.445" y="-3.175" size="0.8128" layer="48" font="vector" rot="R90">5V</text>
+<text x="-4.7625" y="-3.81" size="0.8128" layer="48" font="vector" rot="R90">3V3</text>
+<text x="2.8575" y="-3.81" size="0.8128" layer="48" font="vector" rot="R90">GND</text>
+<text x="0.635" y="-6.0325" size="0.8128" layer="48" font="vector" rot="R90">TEST1N</text>
+<text x="-0.9525" y="-2.2225" size="0.8128" layer="48" font="vector" rot="R90">1</text>
+<text x="-2.2225" y="-2.2225" size="0.8128" layer="48" font="vector" rot="R90">0</text>
+<text x="-3.4925" y="-5.3975" size="0.8128" layer="48" font="vector" rot="R90">TEST0</text>
+<polygon width="0.127" layer="21">
+<vertex x="3.81" y="1.27"/>
+<vertex x="3.175" y="1.905"/>
+<vertex x="4.445" y="1.905"/>
+</polygon>
 </package>
 <package name="UP2-AH-TH">
 <pad name="VDD" x="3.5" y="5" drill="1"/>
@@ -1104,22 +1120,22 @@ be 1mm</text>
 <text x="7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="XB-1-X">
-<pin name="1_1" x="-7.62" y="10.16" length="middle"/>
-<pin name="1_2" x="-7.62" y="7.62" length="middle"/>
-<pin name="2_1" x="-7.62" y="2.54" length="middle"/>
-<pin name="2_2" x="-7.62" y="0" length="middle"/>
-<pin name="3_1" x="-7.62" y="-5.08" length="middle"/>
-<pin name="3_2" x="-7.62" y="-7.62" length="middle"/>
-<pin name="4_1" x="-7.62" y="-12.7" length="middle"/>
-<pin name="4_2" x="-7.62" y="-15.24" length="middle"/>
-<pin name="5_1" x="-7.62" y="-20.32" length="middle"/>
-<pin name="5_2" x="-7.62" y="-22.86" length="middle"/>
-<pin name="6_1" x="-7.62" y="-27.94" length="middle"/>
-<pin name="6_2" x="-7.62" y="-30.48" length="middle"/>
-<pin name="7_1" x="-7.62" y="-35.56" length="middle"/>
-<pin name="7_2" x="-7.62" y="-38.1" length="middle"/>
-<pin name="8_1" x="-7.62" y="-43.18" length="middle"/>
-<pin name="8_2" x="-7.62" y="-45.72" length="middle"/>
+<pin name="5V_1" x="-7.62" y="10.16" length="middle"/>
+<pin name="5V_2" x="-7.62" y="7.62" length="middle"/>
+<pin name="GND_1" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND_2" x="-7.62" y="0" length="middle"/>
+<pin name="X_1" x="-7.62" y="-5.08" length="middle"/>
+<pin name="X_2" x="-7.62" y="-7.62" length="middle"/>
+<pin name="TEST1N_1" x="-7.62" y="-12.7" length="middle"/>
+<pin name="TEST1N_2" x="-7.62" y="-15.24" length="middle"/>
+<pin name="1_1" x="-7.62" y="-20.32" length="middle"/>
+<pin name="1_2" x="-7.62" y="-22.86" length="middle"/>
+<pin name="0_1" x="-7.62" y="-27.94" length="middle"/>
+<pin name="0_2" x="-7.62" y="-30.48" length="middle"/>
+<pin name="TEST0_1" x="-7.62" y="-35.56" length="middle"/>
+<pin name="TEST0_2" x="-7.62" y="-38.1" length="middle"/>
+<pin name="3V3_1" x="-7.62" y="-43.18" length="middle"/>
+<pin name="3V3_2" x="-7.62" y="-45.72" length="middle"/>
 <wire x1="-2.54" y1="12.7" x2="-2.54" y2="-48.26" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-48.26" x2="10.16" y2="-48.26" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-48.26" x2="10.16" y2="12.7" width="0.254" layer="94"/>
@@ -1689,22 +1705,22 @@ http://www.digikey.jp/product-detail/ja/te-connectivity-amp-connectors/NC6-P108-
 <devices>
 <device name="" package="XB-1-X">
 <connects>
-<connect gate="G$1" pin="1_1" pad="1_1"/>
-<connect gate="G$1" pin="1_2" pad="1_2"/>
-<connect gate="G$1" pin="2_1" pad="2_1"/>
-<connect gate="G$1" pin="2_2" pad="2_2"/>
-<connect gate="G$1" pin="3_1" pad="3_1"/>
-<connect gate="G$1" pin="3_2" pad="3_2"/>
-<connect gate="G$1" pin="4_1" pad="4_1"/>
-<connect gate="G$1" pin="4_2" pad="4_2"/>
-<connect gate="G$1" pin="5_1" pad="5_1"/>
-<connect gate="G$1" pin="5_2" pad="5_2"/>
-<connect gate="G$1" pin="6_1" pad="6_1"/>
-<connect gate="G$1" pin="6_2" pad="6_2"/>
-<connect gate="G$1" pin="7_1" pad="7_1"/>
-<connect gate="G$1" pin="7_2" pad="7_2"/>
-<connect gate="G$1" pin="8_1" pad="8_1"/>
-<connect gate="G$1" pin="8_2" pad="8_2"/>
+<connect gate="G$1" pin="0_1" pad="6_1"/>
+<connect gate="G$1" pin="0_2" pad="6_2"/>
+<connect gate="G$1" pin="1_1" pad="5_1"/>
+<connect gate="G$1" pin="1_2" pad="5_2"/>
+<connect gate="G$1" pin="3V3_1" pad="8_1"/>
+<connect gate="G$1" pin="3V3_2" pad="8_2"/>
+<connect gate="G$1" pin="5V_1" pad="1_1"/>
+<connect gate="G$1" pin="5V_2" pad="1_2"/>
+<connect gate="G$1" pin="GND_1" pad="2_1"/>
+<connect gate="G$1" pin="GND_2" pad="2_2"/>
+<connect gate="G$1" pin="TEST0_1" pad="7_1"/>
+<connect gate="G$1" pin="TEST0_2" pad="7_2"/>
+<connect gate="G$1" pin="TEST1N_1" pad="4_1"/>
+<connect gate="G$1" pin="TEST1N_2" pad="4_2"/>
+<connect gate="G$1" pin="X_1" pad="3_1"/>
+<connect gate="G$1" pin="X_2" pad="3_2"/>
 </connects>
 <technologies>
 <technology name=""/>

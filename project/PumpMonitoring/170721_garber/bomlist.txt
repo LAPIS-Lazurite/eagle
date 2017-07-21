@@ -1,0 +1,50 @@
+Partlist
+
+Exported from PumpMonitoring.brd at 2017/07/21 16:30
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                         Package      Library                 Position (mm)         Orientation
+
+C1       470uF                         E5-10,5      rcl                     (38.1 20.32)          MR270
+C2       1F                            E5-20        rcl                     (43.18 43.18)         MR270
+C4       10u                           C1206        rcl                     (65.0875 17.78)       R180
+CN1      NC6-P108-02                   2PIN         lz-shield               (16.51 27.94)         MR270
+CN2                                    B5B-PH-K-S   jst-ph                  (53.34 12.7)          MR90
+CN3                                    B4B-PH-K-S   jst-ph                  (77.47 11.7475)       MR90
+CN4                                    B2B-PH-K-S   jst-ph                  (2.54 33.02)          MR270
+CN6                                    B4B-PH-K-S   jst-ph                  (62.23 11.7475)       MR90
+CN7                                    B5B-PH-K-S   jst-ph                  (69.85 12.7)          MR90
+D1       PTZ6.2B                       DO214AC      rohm2                   (14.605 17.145)       R0
+D2       RRE04EA4D                     TSMD5        rohm2                   (15.24 26.67)         R270
+D3       RRE04EA4D                     TSMD5        rohm2                   (15.24 30.48)         R270
+D4       RRE04EA4D                     TSMD5        rohm2                   (15.24 12.7)          R0
+D5       RRE04EA4D                     TSMD5        rohm2                   (15.24 21.59)         R180
+D6       RZR040P01                     TSMT3        rohm2                   (76.2 19.05)          R180
+PAD1                                   1,6/0,9      wirepad                 (73.025 16.8275)      R0
+PAD2                                   1,6/0,9      wirepad                 (73.3425 12.7)        R0
+Q1       BSS138                        SOT23        transistor-small-signal (22.86 22.86)         R0
+Q2       BSS84                         SOT23        transistor-small-signal (29.21 11.43)         R0
+Q3       BSS138                        SOT23        transistor-small-signal (24.13 11.43)         R0
+Q4       BSS138                        SOT23        transistor-small-signal (30.48 22.86)         R0
+Q5       BSS138                        SOT23        transistor-small-signal (26.67 22.86)         R0
+R1       510k                          R0603        resistor                (29.21 16.51)         R270
+R2       510k                          R0603        resistor                (24.13 16.51)         R90
+R3       510k                          R0603        resistor                (26.67 29.21)         R90
+R4       510k                          R0603        resistor                (22.86 29.21)         R90
+R5       510k                          R0603        resistor                (21.59 16.51)         R90
+R6       10                            EZP          rohm2                   (31.75 29.21)         R90
+R7       510k                          R0603        resistor                (24.13 5.08)          R90
+R8       NC                            R0603        resistor                (26.67 16.51)         R90
+R9       510k                          R0603        resistor                (40.64 30.48)         R90
+R10      510k                          R0603        resistor                (40.64 26.67)         R90
+R11      1K                            R0603        resistor                (48.26 15.24)         R90
+R12      1K                            R0603        resistor                (45.72 15.24)         R90
+T1       IRLML2246                     SOT-23       zetex                   (24.13 35.56)         R180
+T2       IRLML2246                     SOT-23       zetex                   (34.29 11.43)         R0
+U$1      XB-1-X                        XB-1-X       lz-shield               (67.945 35.56)        R180
+U$2      ZX62R-B-5P                    ZX62R-B-5P   con-hirose              (2.54 43.18)          R0
+U1       FSS-71034-10x2,FSS-72034-05x1 LAZURITE920J lazurite                (63.5 24.13)          MR90
+V1       BAT-HLD-001-THM               CR2032       mouser                  (20.32 44.45)         MR180

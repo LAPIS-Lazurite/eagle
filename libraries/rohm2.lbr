@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -108,6 +108,17 @@
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TSMT3">
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.95" y="-1.05" dx="0.9" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="-1.05" dx="0.9" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="0" y="1.05" dx="0.9" dy="0.7" layer="1" rot="R90"/>
+<wire x1="-1.45" y1="-0.995" x2="1.45" y2="-0.995" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-0.995" x2="1.45" y2="0.995" width="0.127" layer="51"/>
+<wire x1="1.45" y1="0.995" x2="-1.45" y2="0.995" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="0.995" x2="-1.45" y2="-0.995" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="Z-DIODE">
@@ -150,6 +161,56 @@
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="PMOS">
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="2.54" x2="-3.556" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="0" x2="-3.556" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-0.762" x2="3.302" y2="-0.762" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="-0.508"/>
+<vertex x="1.778" y="0.508"/>
+<vertex x="3.302" y="0.508"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-1.524" y="-4.318"/>
+<vertex x="-1.524" y="-5.842"/>
+<vertex x="-2.794" y="-5.08"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-4.318" y="-5.842"/>
+<vertex x="-4.318" y="-4.318"/>
+<vertex x="-3.048" y="-5.08"/>
+</polygon>
+<wire x1="-3.048" y1="-4.318" x2="-3.048" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="-3.81" x2="-3.048" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="-6.096" x2="-2.54" y2="-6.604" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-4.318" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.556" y2="0" width="0.254" layer="94"/>
+<pin name="G" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="S" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
+<pin name="D" x="0" y="10.16" visible="off" length="short" rot="R270"/>
+<text x="0.762" y="4.826" size="1.27" layer="97">D</text>
+<text x="-5.842" y="0.762" size="1.27" layer="97">G</text>
+<text x="0.762" y="-5.588" size="1.27" layer="97">S</text>
+<text x="-8.128" y="4.826" size="1.27" layer="95">&gt;NAME</text>
+<text x="-8.382" y="-9.144" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -213,6 +274,23 @@
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RZR040P01" prefix="D">
+<gates>
+<gate name="G$1" symbol="PMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSMT3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

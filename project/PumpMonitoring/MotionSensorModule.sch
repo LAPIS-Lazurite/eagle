@@ -107,18 +107,18 @@ DIN A4, landscape with location and doc. field</description>
 <library name="st">
 <packages>
 <package name="LGA-24L">
-<smd name="3" x="-1.505" y="0.215" dx="0.45" dy="0.33" layer="1"/>
-<smd name="4" x="-1.505" y="-0.215" dx="0.45" dy="0.33" layer="1"/>
-<smd name="2" x="-1.505" y="0.645" dx="0.45" dy="0.33" layer="1"/>
-<smd name="5" x="-1.505" y="-0.645" dx="0.45" dy="0.33" layer="1"/>
-<smd name="17" x="1.505" y="0.645" dx="0.45" dy="0.33" layer="1"/>
-<smd name="16" x="1.505" y="0.215" dx="0.45" dy="0.33" layer="1"/>
-<smd name="15" x="1.505" y="-0.215" dx="0.45" dy="0.33" layer="1"/>
-<smd name="14" x="1.505" y="-0.645" dx="0.45" dy="0.33" layer="1"/>
-<smd name="9" x="-0.215" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="8" x="-0.645" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="7" x="-1.075" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="6" x="-1.505" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
+<smd name="3" x="-1.505" y="0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="4" x="-1.505" y="-0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="2" x="-1.505" y="0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="5" x="-1.505" y="-0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="17" x="1.505" y="0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="16" x="1.505" y="0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="15" x="1.505" y="-0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="14" x="1.505" y="-0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="9" x="-0.215" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="8" x="-0.645" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="7" x="-1.075" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="6" x="-1.505" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
 <wire x1="-1.75" y1="1.5" x2="-1.75" y2="-1.5" width="0.127" layer="48"/>
 <wire x1="-1.75" y1="-1.5" x2="1.75" y2="-1.5" width="0.127" layer="48"/>
 <wire x1="1.75" y1="-1.5" x2="1.75" y2="1.5" width="0.127" layer="48"/>
@@ -129,18 +129,18 @@ DIN A4, landscape with location and doc. field</description>
 <vertex x="-0.816" y="0.562" curve="-90"/>
 <vertex x="-1.016" y="0.562" curve="-90"/>
 </polygon>
-<smd name="10" x="0.215" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="11" x="0.645" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="12" x="1.075" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="13" x="1.505" y="-1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="1" x="-1.505" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="24" x="-1.075" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="23" x="-0.645" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="22" x="-0.215" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="21" x="0.215" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="20" x="0.645" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="19" x="1.075" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
-<smd name="18" x="1.505" y="1.235" dx="0.45" dy="0.33" layer="1" rot="R90"/>
+<smd name="10" x="0.215" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="11" x="0.645" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="12" x="1.075" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="13" x="1.505" y="-1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="1" x="-1.505" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="24" x="-1.075" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="23" x="-0.645" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="22" x="-0.215" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="21" x="0.215" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="20" x="0.645" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="19" x="1.075" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="18" x="1.505" y="1.235" dx="0.35" dy="0.23" layer="1" rot="R90"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -7325,9 +7325,10 @@ Solder type</description>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device="" value="MotionSensorModule"/>
-<part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="B"/>
-<part name="JMP2" library="jump-0r-smd" deviceset="0R-JUMP" device="B"/>
+<part name="JP1" library="jump-0r-smd" deviceset="0R-JUMP" device="B"/>
+<part name="JP2" library="jump-0r-smd" deviceset="0R-JUMP" device="B"/>
 <part name="CN1" library="jst-ph" deviceset="B5B-PH-*" device="SM4-TB" value="JST-PH-K*"/>
+<part name="VDD3" library="supply1" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7349,21 +7350,22 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <instance part="GND3" gate="1" x="149.86" y="60.96"/>
 <instance part="GND4" gate="1" x="160.02" y="60.96"/>
 <instance part="GND5" gate="1" x="119.38" y="60.96"/>
-<instance part="GND6" gate="1" x="111.76" y="60.96"/>
+<instance part="GND6" gate="1" x="76.2" y="60.96"/>
 <instance part="R1" gate="G$1" x="73.66" y="114.3" rot="R90"/>
 <instance part="R2" gate="G$1" x="66.04" y="114.3" rot="R90"/>
 <instance part="VDD2" gate="G$1" x="73.66" y="157.48"/>
 <instance part="GND7" gate="1" x="58.42" y="60.96"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="JMP1" gate="-0R" x="58.42" y="132.08" smashed="yes">
+<instance part="JP1" gate="-0R" x="58.42" y="132.08" smashed="yes">
 <attribute name="NAME" x="62.23" y="134.62" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="JMP1" gate="G$2" x="55.88" y="134.62" smashed="yes"/>
-<instance part="JMP2" gate="-0R" x="50.8" y="104.14" smashed="yes">
+<instance part="JP1" gate="G$2" x="55.88" y="134.62" smashed="yes"/>
+<instance part="JP2" gate="-0R" x="50.8" y="104.14" smashed="yes">
 <attribute name="NAME" x="54.61" y="106.68" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="JMP2" gate="G$2" x="48.26" y="106.68"/>
+<instance part="JP2" gate="G$2" x="48.26" y="106.68"/>
 <instance part="CN1" gate="G$1" x="193.04" y="96.52" rot="R180"/>
+<instance part="VDD3" gate="G$1" x="160.02" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -7410,7 +7412,6 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <pinref part="IC1" gate="G$1" pin="GND1"/>
 <wire x1="111.76" y1="86.36" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="83.82" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="66.04" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="RES5"/>
 <wire x1="106.68" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
@@ -7426,12 +7427,14 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <wire x1="93.98" y1="68.58" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="RES4"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<junction x="111.76" y="66.04"/>
 <junction x="111.76" y="83.82"/>
 <junction x="111.76" y="86.36"/>
 <junction x="96.52" y="66.04"/>
 <junction x="93.98" y="66.04"/>
 <junction x="88.9" y="66.04"/>
+<wire x1="86.36" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="66.04" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="86.36" y="66.04"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
@@ -7439,10 +7442,10 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <pinref part="CN1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JMP1" gate="-0R" pin="3"/>
+<pinref part="JP1" gate="-0R" pin="3"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="58.42" y1="129.54" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="JMP2" gate="-0R" pin="3"/>
+<pinref part="JP2" gate="-0R" pin="3"/>
 <wire x1="58.42" y1="91.44" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="101.6" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
@@ -7459,18 +7462,6 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD1"/>
-<wire x1="106.68" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="96.52" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VDD2"/>
-<wire x1="149.86" y1="99.06" x2="149.86" y2="127" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
-<junction x="149.86" y="99.06"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="76.2" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="83.82" x2="160.02" y2="127" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
-<junction x="149.86" y="127"/>
 <pinref part="IC1" gate="G$1" pin="VDDIO2"/>
 <wire x1="93.98" y1="124.46" x2="93.98" y2="127" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
@@ -7480,14 +7471,9 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <junction x="139.7" y="104.14"/>
 <wire x1="139.7" y1="127" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
 <junction x="139.7" y="127"/>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
 <wire x1="139.7" y1="137.16" x2="139.7" y2="127" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="76.2" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<junction x="160.02" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -7499,11 +7485,11 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <junction x="73.66" y="124.46"/>
 <wire x1="66.04" y1="119.38" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JMP1" gate="-0R" pin="1"/>
+<pinref part="JP1" gate="-0R" pin="1"/>
 <wire x1="58.42" y1="134.62" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
 <junction x="73.66" y="147.32"/>
-<pinref part="JMP2" gate="-0R" pin="1"/>
+<pinref part="JP2" gate="-0R" pin="1"/>
 <wire x1="50.8" y1="106.68" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <junction x="58.42" y="147.32"/>
@@ -7512,6 +7498,25 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <wire x1="193.04" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 <label x="205.74" y="93.98" size="1.778" layer="95"/>
 <pinref part="CN1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD2"/>
+<wire x1="106.68" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VDD1"/>
+<wire x1="106.68" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="96.52" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="76.2" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="96.52" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<junction x="160.02" y="96.52"/>
+<junction x="160.02" y="91.44"/>
+<pinref part="VDD3" gate="G$1" pin="VDD"/>
+<wire x1="160.02" y1="106.68" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="99.06" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<junction x="111.76" y="96.52"/>
+<wire x1="149.86" y1="76.2" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -7569,14 +7574,14 @@ JMP2(Mag) : 0=0x1C (1=0x1E)</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDO_A/G"/>
-<pinref part="JMP1" gate="-0R" pin="2"/>
+<pinref part="JP1" gate="-0R" pin="2"/>
 <wire x1="60.96" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="132.08" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="JMP2" gate="-0R" pin="2"/>
+<pinref part="JP2" gate="-0R" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="SDO_M"/>
 <wire x1="53.34" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 </segment>

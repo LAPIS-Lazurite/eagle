@@ -1,0 +1,50 @@
+Partlist
+
+Exported from PumpMonitoring.brd at 2017/07/21 16:30
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                         Package      Library                 Position (mm)         Orientation
+
+C1       470uF                         E5-10,5      rcl                     (38.1 20.32)          MR270　 購入をお願いします。
+C2       1F                            E5-20        rcl                     (43.18 43.18)         MR270　 購入をお願いします。
+C4       10u                           C1206        rcl                     (65.0875 17.78)       R180　 購入をお願いします。　
+CN1      NC6-P108-02                   2PIN         lz-shield               (16.51 27.94)         MR270　購入をお願いします。CTセンサシールドと同じ。
+CN2                                    B5B-PH-K-S   jst-ph                  (53.34 12.7)          MR90　 購入をお願いします。
+CN3                                    B4B-PH-K-S   jst-ph                  (77.47 11.7475)       MR90　 購入をお願いします。　
+CN4                                    B2B-PH-K-S   jst-ph                  (2.54 33.02)          MR270　購入をお願いします。
+CN6                                    B4B-PH-K-S   jst-ph                  (62.23 11.7475)       MR90　 購入をお願いします。
+CN7                                    B5B-PH-K-S   jst-ph                  (69.85 12.7)          MR90　 購入をお願いします。
+D1       PTZ6.2B                       DO214AC      rohm2                   (14.605 17.145)       R0　　 購入をお願いします。
+D2       RRE04EA4D                     TSMD5        rohm2                   (15.24 26.67)         R270　購入をお願いします。
+D3       RRE04EA4D                     TSMD5        rohm2                   (15.24 30.48)         R270　購入をお願いします。　
+D4       RRE04EA4D                     TSMD5        rohm2                   (15.24 12.7)          R0　　購入をお願いします。　
+D5       RRE04EA4D                     TSMD5        rohm2                   (15.24 21.59)         R180　購入をお願いします。　
+D6       RZR040P01                     TSMT3        rohm2                   (76.2 19.05)          R180　購入をお願いします。　
+PAD1                                   1,6/0,9      wirepad                 (73.025 16.8275)      R0  　PADです。
+PAD2                                   1,6/0,9      wirepad                 (73.3425 12.7)        R0　　PADです
+Q1       BSS138                        SOT23        transistor-small-signal (22.86 22.86)         R0　　購入をお願いいたします。
+Q2       BSS84                         SOT23        transistor-small-signal (29.21 11.43)         R0　　購入をお願いいたします。
+Q3       BSS138                        SOT23        transistor-small-signal (24.13 11.43)         R0　　購入をお願いいたします。
+Q4       BSS138                        SOT23        transistor-small-signal (30.48 22.86)         R0　　購入をお願いいたします。
+Q5       BSS138                        SOT23        transistor-small-signal (26.67 22.86)         R0　　購入をお願いいたします。
+R1       510k                          R0603        resistor                (29.21 16.51)         R270　購入をお願いいたします。
+R2       510k                          R0603        resistor                (24.13 16.51)         R90　　購入をお願いいたします。
+R3       510k                          R0603        resistor                (26.67 29.21)         R90　　購入をお願いいたします。
+R4       510k                          R0603        resistor                (22.86 29.21)         R90　　購入をお願いいたします。
+R5       510k                          R0603        resistor                (21.59 16.51)         R90　　購入をお願いいたします。
+R6       MCR18004QLPJ100               EZP          rohm2                   (31.75 29.21)         R90　　購入をお願いいたします。10Ωシャント抵抗。
+R7       510k                          R0603        resistor                (24.13 5.08)          R90　　購入をお願いいたします。
+R8       NC                            R0603        resistor                (26.67 16.51)         R90　　購入をお願いいたします。
+R9       510k                          R0603        resistor                (40.64 30.48)         R90　　購入をお願いいたします。
+R10      510k                          R0603        resistor                (40.64 26.67)         R90　　購入をお願いいたします。
+R11      1K                            R0603        resistor                (48.26 15.24)         R90　　購入をお願いいたします。
+R12      1K                            R0603        resistor                (45.72 15.24)         R90　　購入をお願いいたします。
+T1       IRLML2246                     SOT-23       zetex                   (24.13 35.56)         R180　  CTセンサシールドと同じ部品です。購入をお願いいたします。
+T2       IRLML2246                     SOT-23       zetex                   (34.29 11.43)         R0　    CTセンサシールドと同じ部品です。購入をお願いいたします。
+U$1      XB-1-X                        XB-1-X       lz-shield               (67.945 35.56)        R180    PADです。
+U$2      ZX62R-B-5P                    ZX62R-B-5P   con-hirose              (2.54 43.18)          R0　    CTセンサシールドと同じ部品です。購入をお願いいたします。
+U1       FSS-71034-10x2,FSS-72034-05x1 LAZURITE920J lazurite                (63.5 24.13)          MR90　　Lazurite920J用　廣杉計器(FSS-71034-10x2,FSS-72034-05x1)の実装をお願いします。
+V1       BAT-HLD-001-THM               CR2032       mouser                  (20.32 44.45)         MR180　購入をお願いします。

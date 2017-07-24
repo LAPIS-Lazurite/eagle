@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9915,6 +9915,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="NC"/>
 <part name="D1" library="rohm2" deviceset="RRE04EA4D" device=""/>
 <part name="IC1" library="ti" deviceset="LMV324" device=""/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0603" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -9990,6 +9991,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <instance part="IC1" gate="B" x="205.74" y="147.32"/>
 <instance part="IC1" gate="C" x="254" y="88.9"/>
 <instance part="IC1" gate="D" x="276.86" y="149.86"/>
+<instance part="R20" gate="G$1" x="101.6" y="139.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10052,15 +10054,9 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="MIC1" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="101.6" y1="149.86" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="149.86" x2="104.394" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="104.394" y1="149.86" x2="104.394" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="104.394" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<junction x="101.6" y="149.86"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="134.62" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
@@ -10338,6 +10334,19 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <pinref part="D1" gate="D2" pin="A"/>
 <wire x1="213.36" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="MIC1" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="149.86" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="149.86" x2="104.394" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="104.394" y1="149.86" x2="104.394" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="104.394" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="101.6" y="149.86"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

@@ -145,9 +145,9 @@
 <board>
 <plain>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="3" y1="0" x2="53" y2="0" width="0" layer="20"/>
-<wire x1="53" y1="0" x2="53" y2="22.27" width="0" layer="20"/>
-<wire x1="53" y1="22.27" x2="64" y2="22.27" width="0" layer="20"/>
+<wire x1="3" y1="0" x2="48" y2="0" width="0" layer="20"/>
+<wire x1="48" y1="0" x2="48" y2="22.27" width="0" layer="20"/>
+<wire x1="48" y1="22.27" x2="64" y2="22.27" width="0" layer="20"/>
 <wire x1="64" y1="22.27" x2="65" y2="23.27" width="0" layer="20" curve="90"/>
 <wire x1="65" y1="23.27" x2="65" y2="27" width="0" layer="20"/>
 <wire x1="65" y1="27" x2="62" y2="30" width="0" layer="20" curve="90"/>
@@ -1519,16 +1519,16 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <smd name="17" x="0.6" y="1.355" dx="0.23" dy="0.66" layer="1"/>
 <wire x1="-11" y1="-3" x2="11" y2="-3" width="0.127" layer="51"/>
 <wire x1="11" y1="-3" x2="11" y2="2.54" width="0.127" layer="51"/>
-<wire x1="11" y1="2.54" x2="11" y2="21.5" width="0.127" layer="51"/>
-<wire x1="11" y1="21.5" x2="11" y2="31.7" width="0.127" layer="51"/>
+<wire x1="11" y1="2.54" x2="11" y2="16.5" width="0.127" layer="51"/>
+<wire x1="11" y1="16.5" x2="11" y2="31.7" width="0.127" layer="51"/>
 <wire x1="11" y1="31.7" x2="-11" y2="31.7" width="0.127" layer="51"/>
-<wire x1="-11" y1="31.7" x2="-11" y2="21.5" width="0.127" layer="51"/>
-<wire x1="-11" y1="21.5" x2="-11" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-11" y1="31.7" x2="-11" y2="16.5" width="0.127" layer="51"/>
+<wire x1="-11" y1="16.5" x2="-11" y2="2.54" width="0.127" layer="51"/>
 <wire x1="-11" y1="2.54" x2="-11" y2="-3" width="0.127" layer="51"/>
 <wire x1="-11" y1="2.54" x2="11" y2="2.54" width="0.127" layer="51"/>
 <pad name="GND1" x="6.55" y="-0.25" drill="2.2" diameter="3.81"/>
 <pad name="GND2" x="-6.55" y="-0.25" drill="2.2" diameter="3.81"/>
-<wire x1="-11" y1="21.5" x2="11" y2="21.5" width="0.127" layer="51"/>
+<wire x1="-11" y1="16.5" x2="11" y2="16.5" width="0.127" layer="51"/>
 <text x="-2.54" y="26.67" size="1.27" layer="51">RF Area</text>
 <text x="-27.305" y="33.02" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-27.305" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
@@ -1857,8 +1857,8 @@ Your Eurocircuits Team
 <vertex x="0.5" y="29.5"/>
 <vertex x="64.5" y="29.5"/>
 <vertex x="64.5" y="23"/>
-<vertex x="52" y="23"/>
-<vertex x="52" y="0.5"/>
+<vertex x="48.19" y="23"/>
+<vertex x="48.19" y="0.5"/>
 <vertex x="0.5" y="0.5"/>
 </polygon>
 <wire x1="30.395" y1="11.63" x2="29.41" y2="11.63" width="0.2" layer="1"/>
@@ -1892,8 +1892,8 @@ Your Eurocircuits Team
 <vertex x="0.5" y="29.5"/>
 <vertex x="64.5" y="29.5"/>
 <vertex x="64.5" y="23"/>
-<vertex x="52" y="23"/>
-<vertex x="52" y="0.5"/>
+<vertex x="48.19" y="23"/>
+<vertex x="48.19" y="0.5"/>
 <vertex x="0.5" y="0.5"/>
 </polygon>
 <contactref element="U$20" pad="8"/>

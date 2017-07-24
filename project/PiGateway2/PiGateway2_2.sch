@@ -173,16 +173,16 @@
 <smd name="17" x="0.6" y="1.355" dx="0.23" dy="0.66" layer="1"/>
 <wire x1="-11" y1="-3" x2="11" y2="-3" width="0.127" layer="51"/>
 <wire x1="11" y1="-3" x2="11" y2="2.54" width="0.127" layer="51"/>
-<wire x1="11" y1="2.54" x2="11" y2="21.5" width="0.127" layer="51"/>
-<wire x1="11" y1="21.5" x2="11" y2="31.7" width="0.127" layer="51"/>
+<wire x1="11" y1="2.54" x2="11" y2="16.5" width="0.127" layer="51"/>
+<wire x1="11" y1="16.5" x2="11" y2="31.7" width="0.127" layer="51"/>
 <wire x1="11" y1="31.7" x2="-11" y2="31.7" width="0.127" layer="51"/>
-<wire x1="-11" y1="31.7" x2="-11" y2="21.5" width="0.127" layer="51"/>
-<wire x1="-11" y1="21.5" x2="-11" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-11" y1="31.7" x2="-11" y2="16.5" width="0.127" layer="51"/>
+<wire x1="-11" y1="16.5" x2="-11" y2="2.54" width="0.127" layer="51"/>
 <wire x1="-11" y1="2.54" x2="-11" y2="-3" width="0.127" layer="51"/>
 <wire x1="-11" y1="2.54" x2="11" y2="2.54" width="0.127" layer="51"/>
 <pad name="GND1" x="6.55" y="-0.25" drill="2.2" diameter="3.81"/>
 <pad name="GND2" x="-6.55" y="-0.25" drill="2.2" diameter="3.81"/>
-<wire x1="-11" y1="21.5" x2="11" y2="21.5" width="0.127" layer="51"/>
+<wire x1="-11" y1="16.5" x2="11" y2="16.5" width="0.127" layer="51"/>
 <text x="-2.54" y="26.67" size="1.27" layer="51">RF Area</text>
 <text x="-27.305" y="33.02" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-27.305" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
@@ -292,7 +292,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SML-E1X">
+<deviceset name="SML-E1X" prefix="LD">
 <gates>
 <gate name="G$1" symbol="SML-E1X" x="0" y="0"/>
 </gates>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16,8 +16,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -2731,8 +2731,8 @@ Your Eurocircuits Team
 <element name="LED" library="lazurite" package="SML-E1X" value="RED" x="31.4452" y="11.049" smashed="yes">
 <attribute name="NAME" x="33.2105" y="9.8044" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="MIC1" library="SparkFun-Sensors" package="MIC-9.7MM" value="MIC9.7MM" x="5.8166" y="11.8618" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="COMP-08856" x="5.8166" y="11.8618" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="MIC1" library="SparkFun-Sensors" package="MIC-9.7MM" value="MIC9.7MM" x="5.8166" y="10.8458" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="COMP-08856" x="5.8166" y="10.8458" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0603" value="2.2k" x="9.0678" y="4.1402" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.2296" y="3.3528" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
@@ -2816,6 +2816,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="17.6276" y="9.9568" size="1.27" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="28.0416" y="8.9408" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="R20" library="rcl" package="R0603" value="0" x="7.112" y="17.272"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2854,24 +2855,22 @@ Your Eurocircuits Team
 <contactref element="R1" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="MIC1" pad="1"/>
-<wire x1="11.3538" y1="6.6324" x2="11.3538" y2="8.4582" width="0.2032" layer="1"/>
-<wire x1="11.3538" y1="8.4582" x2="9.2202" y2="10.5918" width="0.2032" layer="1"/>
-<wire x1="9.2202" y1="10.5918" x2="7.8166" y2="10.5918" width="0.2032" layer="1"/>
-<wire x1="9.0678" y1="4.9902" x2="9.0678" y2="6.0198" width="0.2032" layer="1"/>
-<wire x1="9.0678" y1="6.0198" x2="9.652" y2="6.604" width="0.2032" layer="1"/>
-<wire x1="9.652" y1="6.604" x2="11.3254" y2="6.604" width="0.2032" layer="1"/>
-<wire x1="11.3254" y1="6.604" x2="11.3538" y2="6.6324" width="0.2032" layer="1"/>
+<wire x1="7.8166" y1="9.5758" x2="7.8166" y2="7.4234" width="0.4064" layer="1"/>
+<wire x1="7.8166" y1="7.4234" x2="8.636" y2="6.604" width="0.4064" layer="1"/>
+<wire x1="8.636" y1="6.604" x2="9.144" y2="6.604" width="0.4064" layer="1"/>
+<wire x1="9.144" y1="6.604" x2="11.3254" y2="6.604" width="0.4064" layer="1"/>
+<wire x1="11.3254" y1="6.604" x2="11.3538" y2="6.6324" width="0.4064" layer="1"/>
+<wire x1="9.0678" y1="4.9902" x2="9.0678" y2="6.5278" width="0.4064" layer="1"/>
+<wire x1="9.0678" y1="6.5278" x2="9.144" y2="6.604" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="CN1" pad="1"/>
 <contactref element="R4" pad="1"/>
-<contactref element="MIC1" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="R10" pad="1"/>
 <contactref element="C6" pad="2"/>
 <contactref element="R14" pad="1"/>
 <contactref element="R16" pad="1"/>
-<contactref element="C2" pad="1"/>
 <contactref element="C3" pad="2"/>
 <polygon width="0.4064" layer="1">
 <vertex x="-1.27" y="26.67"/>
@@ -2881,6 +2880,8 @@ Your Eurocircuits Team
 </polygon>
 <contactref element="IC1" pad="5"/>
 <contactref element="IC1" pad="11"/>
+<contactref element="R20" pad="1"/>
+<via x="5.08" y="17.272" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$2">
 <contactref element="R3" pad="1"/>
@@ -3131,6 +3132,19 @@ Your Eurocircuits Team
 <contactref element="D1" pad="3"/>
 <wire x1="28.4894" y1="8.0834" x2="26.172" y2="8.0834" width="0.2032" layer="1"/>
 <wire x1="26.172" y1="8.0834" x2="26.0096" y2="8.2458" width="0.2032" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="MIC1" pad="2"/>
+<contactref element="C2" pad="1"/>
+<contactref element="R20" pad="2"/>
+<wire x1="11.0998" y1="17.4362" x2="10.3242" y2="17.4362" width="0.4064" layer="1"/>
+<wire x1="10.3242" y1="17.4362" x2="9.652" y2="16.764" width="0.4064" layer="1"/>
+<wire x1="9.652" y1="16.764" x2="9.652" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="9.652" y1="12.7" x2="9.144" y2="12.192" width="0.4064" layer="1"/>
+<wire x1="9.144" y1="12.192" x2="7.8928" y2="12.192" width="0.4064" layer="1"/>
+<wire x1="7.8928" y1="12.192" x2="7.8166" y2="12.1158" width="0.4064" layer="1"/>
+<wire x1="7.8166" y1="12.1158" x2="7.8166" y2="17.1266" width="0.4064" layer="1"/>
+<wire x1="7.8166" y1="17.1266" x2="7.962" y2="17.272" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>

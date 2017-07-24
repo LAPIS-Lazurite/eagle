@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2001,6 +2001,31 @@
 <smd name="14" x="-12" y="-1" dx="3.5" dy="1" layer="1" rot="R90"/>
 <smd name="15" x="-14" y="-1" dx="3.5" dy="1" layer="1" rot="R90"/>
 </package>
+<package name="B2B-EH">
+<wire x1="-3.75" y1="1.6" x2="-3.75" y2="1.175" width="0.1524" layer="21"/>
+<wire x1="-3.75" y1="1.175" x2="-3.75" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="-3.75" y1="0.25" x2="-3.75" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.75" y1="1.6" x2="-3.04" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="-3.04" y1="1.6" x2="3.06" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="3.06" y1="1.6" x2="3.75" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="3.75" y1="-2.2" x2="-3.75" y2="-2.2" width="0.1524" layer="21"/>
+<pad name="1" x="-1.25" y="0" drill="1" shape="square" rot="R90"/>
+<pad name="2" x="1.25" y="0" drill="1" rot="R90"/>
+<text x="-3" y="2.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="3.75" y1="1.6" x2="3.75" y2="1.175" width="0.1524" layer="21"/>
+<wire x1="3.75" y1="1.175" x2="3.75" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="3.75" y1="0.25" x2="3.75" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.75" y1="0.25" x2="-3.06" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="-3.06" y1="0.25" x2="-3.06" y2="-1.565" width="0.1524" layer="21"/>
+<wire x1="-3.06" y1="-1.565" x2="3.06" y2="-1.565" width="0.1524" layer="21"/>
+<wire x1="3.06" y1="-1.565" x2="3.06" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="3.06" y1="0.25" x2="3.75" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="-3.75" y1="1.175" x2="-3.04" y2="1.175" width="0.1524" layer="21"/>
+<wire x1="-3.04" y1="1.175" x2="-3.04" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="3.06" y1="1.6" x2="3.06" y2="1.175" width="0.1524" layer="21"/>
+<wire x1="3.06" y1="1.175" x2="3.75" y2="1.175" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON-1X2">
@@ -3668,6 +3693,22 @@ Source:
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B2B-EH-*" prefix="CON">
+<gates>
+<gate name="G$1" symbol="CON-1X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B2B-EH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

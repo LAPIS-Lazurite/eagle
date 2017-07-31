@@ -9926,15 +9926,15 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <instance part="R14" gate="G$1" x="231.14" y="76.2" rot="R90"/>
 <instance part="SUPPLY4" gate="1" x="231.14" y="106.68"/>
 <instance part="GND8" gate="1" x="231.14" y="66.04"/>
-<instance part="R15" gate="G$1" x="289.56" y="101.6"/>
-<instance part="R16" gate="G$1" x="279.4" y="66.04" rot="R90"/>
-<instance part="LED" gate="G$1" x="279.4" y="76.2"/>
-<instance part="GND1" gate="1" x="279.4" y="55.88"/>
+<instance part="R15" gate="G$1" x="279.4" y="88.9"/>
+<instance part="R16" gate="G$1" x="269.24" y="53.34" rot="R90"/>
+<instance part="LED" gate="G$1" x="269.24" y="63.5"/>
+<instance part="GND1" gate="1" x="269.24" y="43.18"/>
 <instance part="C4" gate="G$1" x="172.72" y="149.86" rot="R90"/>
 <instance part="C6" gate="G$1" x="152.4" y="91.44"/>
 <instance part="GND9" gate="1" x="152.4" y="81.28"/>
 <instance part="SUPPLY5" gate="1" x="152.4" y="96.52"/>
-<instance part="SJ1" gate="1" x="279.4" y="88.9" rot="R90"/>
+<instance part="SJ1" gate="1" x="269.24" y="76.2" rot="R90"/>
 <instance part="R8" gate="G$1" x="208.28" y="172.72"/>
 <instance part="R12" gate="G$1" x="294.64" y="139.7"/>
 <instance part="R6" gate="G$1" x="162.56" y="139.7"/>
@@ -10048,7 +10048,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="279.4" y1="60.96" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="48.26" x2="269.24" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -10195,24 +10195,9 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <junction x="289.56" y="149.86"/>
 </segment>
 <segment>
-<label x="210.82" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="241.3" y1="86.36" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<junction x="241.3" y="86.36"/>
-<wire x1="210.82" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="76.2" x2="269.24" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="88.9" x2="269.24" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="101.6" x2="279.4" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="279.4" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="93.98" x2="279.4" y2="101.6" width="0.1524" layer="91" style="longdash"/>
-<junction x="279.4" y="101.6"/>
-<wire x1="241.3" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="+IN"/>
-<pinref part="IC1" gate="C" pin="OUT"/>
-<wire x1="261.62" y1="88.9" x2="269.24" y2="88.9" width="0.1524" layer="91"/>
-<junction x="269.24" y="88.9"/>
+<wire x1="210.82" y1="86.36" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="210.82" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -10229,8 +10214,8 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <net name="GATE" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="101.6" x2="297.18" y2="101.6" width="0.1524" layer="91"/>
-<label x="297.18" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="284.48" y1="88.9" x2="287.02" y2="88.9" width="0.1524" layer="91"/>
+<label x="287.02" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="99.06" y="91.44" size="1.27" layer="95" xref="yes"/>
@@ -10242,14 +10227,14 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="LED" gate="G$1" pin="C"/>
-<wire x1="279.4" y1="71.12" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="58.42" x2="269.24" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="LED" gate="G$1" pin="A"/>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="279.4" y1="81.28" x2="279.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="68.58" x2="269.24" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENVELOPE" class="0">
@@ -10308,6 +10293,17 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <junction x="101.6" y="149.86"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="A1" gate="G$1" pin="-"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="88.9" x2="274.32" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="269.24" y1="88.9" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="C" pin="OUT"/>
+<wire x1="261.62" y1="88.9" x2="269.24" y2="88.9" width="0.1524" layer="91"/>
+<junction x="269.24" y="88.9"/>
 </segment>
 </net>
 </nets>

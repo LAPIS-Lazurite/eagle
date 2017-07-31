@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -111,32 +111,6 @@ Manufactured in Japan</text>
 <text x="39.37" y="18.415" size="1.6256" layer="22" font="vector" rot="MR0">http://www.sae.co.jp</text>
 <text x="35.8775" y="39.37" size="1.27" layer="21" font="vector">3V</text>
 <text x="27.6225" y="39.37" size="1.27" layer="21" font="vector">5V</text>
-<dimension x1="0" y1="0" x2="66.04" y2="0" x3="33.02" y3="-13.97" textsize="1.778" layer="51"/>
-<dimension x1="76.2" y1="7.62" x2="66.04" y2="7.62" x3="71.12" y3="-3.81" textsize="1.778" layer="51"/>
-<dimension x1="76.2" y1="7.62" x2="76.2" y2="30.48" x3="80.01" y3="19.05" textsize="1.778" layer="51"/>
-<dimension x1="66.04" y1="40.64" x2="66.04" y2="30.48" x3="80.01" y3="35.56" textsize="1.778" layer="51"/>
-<dimension x1="66.04" y1="40.64" x2="66.04" y2="52.07" x3="80.01" y3="46.355" textsize="1.778" layer="51"/>
-<dimension x1="64.77" y1="53.34" x2="64.77" y2="52.07" x3="80.01" y3="52.705" textsize="1.778" layer="51"/>
-<dimension x1="66.04" y1="52.07" x2="64.77" y2="52.07" x3="65.405" y3="57.15" textsize="1.778" layer="51"/>
-<dimension x1="64.77" y1="53.34" x2="0" y2="53.34" x3="32.385" y3="66.04" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="53.34" x2="0" y2="0" x3="-16.51" y3="26.67" textsize="1.778" layer="51"/>
-<dimension x1="82.55" y1="7.62" x2="82.55" y2="8.0264" x3="106.68" y3="7.8232" textsize="1.778" layer="51"/>
-<dimension x1="103.4542" y1="8.0264" x2="103.4542" y2="30.0482" x3="111.76" y3="19.0373" textsize="1.778" layer="51"/>
-<dimension x1="76.2" y1="7.62" x2="103.4796" y2="7.5946" x3="89.829178125" y3="-3.79984375" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="1.27" x2="27.94" y2="1.27" x3="13.97" y3="-7.62" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="1.27" x2="50.8" y2="1.27" x3="25.4" y3="-11.43" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="52.07" x2="18.796" y2="52.07" x3="9.398" y3="58.42" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="52.07" x2="45.72" y2="52.07" x3="22.86" y3="62.23" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="52.07" x2="15.24" y2="52.07" x3="7.62" y3="55.88" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="52.07" x2="0" y2="43.18" x3="-12.7" y3="47.625" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="0" x2="0" y2="24.638" x3="-3.81" y3="12.319" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="0" x2="0" y2="33.782" x3="-7.62" y3="16.891" textsize="1.778" layer="51"/>
-<dimension x1="0" y1="1.27" x2="13.97" y2="1.27" x3="6.985" y3="-3.81" textsize="1.778" layer="51"/>
-<dimension x1="64.77" y1="53.34" x2="64.77" y2="35.56" x3="73.66" y3="44.45" textsize="1.778" layer="51"/>
-<text x="15.24" y="-2.54" size="1.778" layer="51">3φx4</text>
-<dimension x1="13.97" y1="0" x2="13.97" y2="2.54" x3="-1.27" y3="1.27" textsize="1.778" layer="51"/>
-<dimension x1="15.24" y1="53.34" x2="15.24" y2="50.8" x3="-8.89" y3="52.07" textsize="1.778" layer="51"/>
-<dimension x1="66.04" y1="0" x2="66.04" y2="7.62" x3="85.09" y3="3.81" textsize="1.778" layer="51"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -3674,8 +3648,8 @@ Your Multi-CB Team
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="a"/>
-<param name="PrefDir.2" value="0"/>
-<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.2" value="a"/>
+<param name="PrefDir.3" value="a"/>
 <param name="PrefDir.4" value="0"/>
 <param name="PrefDir.5" value="0"/>
 <param name="PrefDir.6" value="0"/>

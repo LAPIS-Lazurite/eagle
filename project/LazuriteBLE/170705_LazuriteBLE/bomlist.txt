@@ -1,4 +1,4 @@
-Partlist
+﻿Partlist
 
 Exported from LazuriteBLE_rev1_1.brd at 2017/06/21 0:21
 
@@ -23,11 +23,11 @@ R13      1K             R0402                       rcl       (11.43 12.7)      
 R14      1K             R0402                       rcl       (11.43 10.16)         R180
 R15      1K             R0402                       rcl       (11.43 11.43)         R180
 SW1      ALPS           SKSGACE010                  lz-shield (2.8575 15.5575)      R0     ALPSのコネクタです。部品購入にて対応をお願いします。
-U$1      ML620Q504      ML620Q504                   lazurite  (12.7 14.605)         MR90
+U$1      ML620Q504      ML620Q504                   lazurite  (12.7 14.605)         MR90   支給部品
 U$3      NX3215SA       NX3215SA-32,768K-SFD-MUA-14 lazurite  (8.89 6.985)          MR0
-U$4      MK71251-02     MK71251-02                  lz-shield (25.4 11.43)          R270
-U$6      BH33PB1WFV     HVSOF5                      lazurite  (11.43 6.6675)        R180
-U$16     SML-E12U8WT86  SML-E1X                     lazurite  (7.62 12.7)           R90
-U$17     SML-E12Y8W     SML-E1X                     lazurite  (7.62 10.16)          R90
-U$18     SML-E13BC8T    SML-E1X                     lazurite  (7.62 11.43)          R90
+U$4      MK71251-02     MK71251-02                  lz-shield (25.4 11.43)          R270   支給部品
+U$6      BH33PB1WFV     HVSOF5                      lazurite  (11.43 6.6675)        R180   支給部品
+U$16     SML-E12U8WT86  SML-E1X                     lazurite  (7.62 12.7)           R90   支給部品
+U$17     SML-E12Y8W     SML-E1X                     lazurite  (7.62 10.16)          R90   支給部品
+U$18     SML-E13BC8T    SML-E1X                     lazurite  (7.62 11.43)          R90   支給部品
 U1                      LAZURITE920J2               lazurite  (1.905 6.985)         R0     3つのコネクタ部品です。別図の通りコネクタの実装をお願いします。

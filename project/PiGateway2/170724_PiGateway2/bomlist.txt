@@ -1,23 +1,14 @@
-Partlist
-
-Exported from PiGateway2_2.brd at 2017/07/24 16:50
-
-EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
-
-Assembly variant: 
-
-Part     Value               Package  Library  Position (mm)         Orientation
-
-CN1      DF40C-20DP-0.4V(51) BP3596A  lazurite (29.5275 11.43)       R270
-D1       SML-E12Y8W          SML-E1X  lazurite (23.8125 19.05)       R0
-D2       SML-E13BC8T         SML-E1X  lazurite (21.2725 19.05)       R0
-JP1                          2X20     pinhead  (32.5 26.5)           R0
-R1       10K                 R0402    rcl      (16.1925 19.05)       R270
-R3       10K                 R0402    rcl      (8.5725 19.05)        R270
-R4       10K                 R0402    rcl      (11.1125 19.05)       R270
-R5       10K                 R0402    rcl      (18.7325 19.05)       R270
-R6       10K                 R0402    rcl      (13.6525 19.05)       R270
-R7       0                   R0402    rcl      (13.6525 13.335)      R90
-R8       NC                  R0402    rcl      (16.1925 13.335)      R90
-R14      1K                  R0402    rcl      (23.8125 13.97)       R90
-R15      1K                  R0402    rcl      (21.2725 13.97)       R90
+Part	Value	Package	Library	Position (mm)	Orientation	部品支給	依頼事項	部品情報
+CN1	DF40C-20DP-0.4V(51)	BP3596A	lazurite	(29.5275 11.43)	R270	×		
+D1	SML-E12Y8W	SML-E1X	lazurite	(23.8125 19.05)	R0	○	量産時は支給しますが、今回は部品調達をお願いします。Lazuriteでも使用しているLEDです。	
+D2	SML-E13BC8T	SML-E1X	lazurite	(21.2725 19.05)	R0	○	量産時は支給しますが、今回は部品調達をお願いします。Lazuriteでも使用しているLEDです。	
+JP1		2X20	pinhead	(32.5 26.5)	R0	×	Lazurite Pi Gatewayと同じ40pinのコネクタを実装してください。	
+R1	10K	R0402	rcl	(16.1925 19.05)	R270	×		
+R3	10K	R0402	rcl	(8.5725 19.05)	R270	×		
+R4	10K	R0402	rcl	(11.1125 19.05)	R270	×		
+R5	10K	R0402	rcl	(18.7325 19.05)	R270	×		
+R6	10K	R0402	rcl	(13.6525 19.05)	R270	×		
+R7	0	R0402	rcl	(13.6525 13.335)	R90	×		
+R8	NC	R0402	rcl	(16.1925 13.335)	R90	―		
+R14	1K	R0402	rcl	(23.8125 13.97)	R90	×		
+R15	1K	R0402	rcl	(21.2725 13.97)	R90	×		

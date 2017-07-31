@@ -1,4 +1,4 @@
-Partlist
+﻿Partlist
 
 Exported from LazuriteBLE_rev1.brd at 2017/03/01 0:27
 
@@ -29,4 +29,4 @@ U$6      BH33PB1WFV     HVSOF5                      lazurite  (450 262.5)       
 U$16     SML-E12U8WT86  SML-E1X                     lazurite  (300 500)             R90
 U$17     SML-E12Y8W     SML-E1X                     lazurite  (300 400)             R90
 U$18     SML-E13BC8T    SML-E1X                     lazurite  (300 450)             R90
-U1                      LAZURITE920J2               lazurite  (75 275)              R0			別図の通りコネクタの実装をお願いします。
+U1                      LAZURITE920J2               lazurite  (75 275)              R0

@@ -1216,22 +1216,6 @@ grid 5.08 mm, diameter 20 mm</description>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="C0603">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 </packages>
 </library>
 <library name="lz-shield">
@@ -2403,6 +2387,22 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 </library>
 <library name="con-hirose">
@@ -2810,7 +2810,7 @@ any components</text>
 <pad name="VDD2" x="-10.4" y="-1.6" drill="1" diameter="2.3"/>
 <pad name="VDD3" x="10.4" y="1.5" drill="1" diameter="2.3"/>
 <pad name="VDD4" x="10.4" y="-1.6" drill="1" diameter="2.3"/>
-<smd name="GND" x="0" y="0" dx="17.8" dy="17.8" layer="1" roundness="100" cream="no"/>
+<smd name="GND" x="0" y="0" dx="17.8" dy="17.8" layer="1" roundness="100"/>
 <wire x1="-7.65" y1="7.5" x2="7.65" y2="7.5" width="0.127" layer="51"/>
 <wire x1="7.65" y1="7.5" x2="10.55" y2="4.6" width="0.127" layer="51"/>
 <wire x1="10.55" y1="4.6" x2="10.55" y2="-4.6" width="0.127" layer="51"/>
@@ -3245,7 +3245,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="21.59" y="33.02" size="1.27" layer="27"/>
 </element>
 <element name="CN1" library="jst-ph" package="B6B-EH" value="B6B-EH-" x="44.45" y="11.43" rot="MR90"/>
-<element name="C3" library="rcl" package="C0603" value="" x="43.18" y="26.67" smashed="yes" rot="R270">
+<element name="C3" library="resistor" package="C0603" value="" x="43.18" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.45" y="27.94" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="41.275" y="27.305" size="1.27" layer="27" rot="R270"/>
 </element>

@@ -66,7 +66,7 @@
 <pad name="VDD2" x="-10.4" y="-1.6" drill="1" diameter="2.3"/>
 <pad name="VDD3" x="10.4" y="1.5" drill="1" diameter="2.3"/>
 <pad name="VDD4" x="10.4" y="-1.6" drill="1" diameter="2.3"/>
-<smd name="GND" x="0" y="0" dx="17.8" dy="17.8" layer="1" roundness="100"/>
+<smd name="GND" x="0" y="0" dx="17.8" dy="17.8" layer="1" roundness="100" cream="no"/>
 <wire x1="-7.65" y1="7.5" x2="7.65" y2="7.5" width="0.127" layer="51"/>
 <wire x1="7.65" y1="7.5" x2="10.55" y2="4.6" width="0.127" layer="51"/>
 <wire x1="10.55" y1="4.6" x2="10.55" y2="-4.6" width="0.127" layer="51"/>
